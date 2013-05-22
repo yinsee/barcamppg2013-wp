@@ -1,0 +1,17 @@
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\ApplicationIcon.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Background.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\BarCamp.xap
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml

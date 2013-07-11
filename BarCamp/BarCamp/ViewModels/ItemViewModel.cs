@@ -4,35 +4,35 @@ using System.Diagnostics;
 using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 
-namespace BarCamp
+namespace BarCamp.ViewModels
 {
-    public class ItemViewModel : INotifyPropertyChanged 
+    public class ItemViewModel : INotifyPropertyChanged
     {
         private string _lineOne;
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
         /// </summary>
         /// <returns></returns>
-        public string LineOne 
+        public string LineOne
         {
-            get 
+            get
             {
                 return _lineOne;
             }
-            set 
+            set
             {
-                _lineOne = value;
-                NotifyPropertyChanged("LineOne");
+                if (value != _lineOne)
+                {
+                    _lineOne = value;
+                    NotifyPropertyChanged("LineOne");
+                }
             }
         }
-        
+
         private string _lineTwo;
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
@@ -46,8 +46,11 @@ namespace BarCamp
             }
             set
             {
-                _lineTwo = value;
-                NotifyPropertyChanged("LineTwo");
+                if (value != _lineTwo)
+                {
+                    _lineTwo = value;
+                    NotifyPropertyChanged("LineTwo");
+                }
             }
         }
 
@@ -64,17 +67,21 @@ namespace BarCamp
             }
             set
             {
-                _lineThree = value;
-                NotifyPropertyChanged("LineThree");
+                if (value != _lineThree)
+                {
+                    _lineThree = value;
+                    NotifyPropertyChanged("LineThree");
+                }
             }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-        private void NotifyPropertyChanged(String propertyName) 
+        private void NotifyPropertyChanged(String propertyName)
         {
-            if (null != PropertyChanged) 
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (null != handler)
             {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+                handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
     }

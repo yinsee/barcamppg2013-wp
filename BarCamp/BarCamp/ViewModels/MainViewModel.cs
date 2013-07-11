@@ -1,19 +1,9 @@
 ﻿using System;
-using System.ComponentModel;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
+using BarCamp.Resources;
 
-namespace BarCamp
+namespace BarCamp.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
@@ -33,15 +23,29 @@ namespace BarCamp
         /// </summary>
         /// <returns></returns>
         public string SampleProperty
-        { 
+        {
             get
             {
                 return _sampleProperty;
             }
             set
             {
-                _sampleProperty = value;
-                NotifyPropertyChanged("SampleProperty");
+                if (value != _sampleProperty)
+                {
+                    _sampleProperty = value;
+                    NotifyPropertyChanged("SampleProperty");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Sample property that returns a localized string
+        /// </summary>
+        public string LocalizedSampleProperty
+        {
+            get
+            {
+                return AppResources.SampleProperty;
             }
         }
 
@@ -76,13 +80,14 @@ namespace BarCamp
 
             this.IsDataLoaded = true;
         }
-        
+
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged(String propertyName)
         {
-            if (null != PropertyChanged)
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (null != handler)
             {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+                handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
     }

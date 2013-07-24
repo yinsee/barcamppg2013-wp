@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
-  <DefaultLanguage xmlns="" code="en-GB" />
-  <App xmlns="" ProductID="{4c03010e-3e3c-4840-b0ca-af6bf1c46266}" Title="BarCamp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BarCamp author" Description="What Is BarCamp?&#xA;BarCamp is a global network of user-generated conferences that are in the format of open, participatory workshop events, with contents provided by the participants themselves. The ad-hoc gathering born from the desire for people to share a" Publisher="BarCamp" PublisherID="{26b1a2e6-2c7c-4533-af90-af0a6c7ab3f3}">
-    <IconPath IsRelative="true" IsResource="false">99xbc_appicon.png</IconPath>
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{4c03010e-3e3c-4840-b0ca-af6bf1c46266}" Title="BarCamp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BarCamp author" Description="Sample description" Publisher="BarCamp" PublisherID="{26b1a2e6-2c7c-4533-af90-af0a6c7ab3f3}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -18,9 +18,9 @@
     <Tokens>
       <PrimaryToken TokenID="BarCampToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">159tilesmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">336tilemedium.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
           <Title>BarCamp</Title>
           <BackContent>
           </BackContent>
@@ -28,14 +28,10 @@
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
-          <LargeBackgroundImageURI IsRelative="true" IsResource="false">
-          </LargeBackgroundImageURI>
-          <LargeBackContent />
-          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
-          </LargeBackBackgroundImageURI>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>True</HasLarge>
+          <HasLarge>
+          </HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
@@ -44,8 +40,5 @@
       <ScreenResolution Name="ID_RESOLUTION_WXGA" />
       <ScreenResolution Name="ID_RESOLUTION_HD720P" />
     </ScreenResolutions>
-    <Requirements>
-      <Requirement Name="ID_REQ_REARCAMERA" />
-    </Requirements>
   </App>
 </Deployment>

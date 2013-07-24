@@ -120,63 +120,6 @@
             for reuse.
             </summary>
         </member>
-        <member name="T:ZXing.Aztec.AztecWriter">
-            <summary>
-            Generates Aztec 2D barcodes.
-            </summary>
-        </member>
-        <member name="T:ZXing.Writer">
-            <summary> The base class for all objects which encode/generate a barcode image.
-            
-            </summary>
-            <author>  dswitkin@google.com (Daniel Switkin)
-            </author>
-            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
-            </author>
-        </member>
-        <member name="M:ZXing.Writer.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32)">
-            <summary>
-            Encode a barcode using the default settings.
-            </summary>
-            <param name="contents">The contents to encode in the barcode</param>
-            <param name="format">The barcode format to generate</param>
-            <param name="width">The preferred width in pixels</param>
-            <param name="height">The preferred height in pixels</param>
-            <returns> The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)</returns>
-        </member>
-        <member name="M:ZXing.Writer.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32,System.Collections.Generic.IDictionary{ZXing.EncodeHintType,System.Object})">
-            <summary> </summary>
-            <param name="contents">The contents to encode in the barcode</param>
-            <param name="format">The barcode format to generate</param>
-            <param name="width">The preferred width in pixels</param>
-            <param name="height">The preferred height in pixels</param>
-            <param name="hints">Additional parameters to supply to the encoder</param>
-            <returns> The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)</returns>
-        </member>
-        <member name="M:ZXing.Aztec.AztecWriter.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32)">
-            <summary>
-            Encode a barcode using the default settings.
-            </summary>
-            <param name="contents">The contents to encode in the barcode</param>
-            <param name="format">The barcode format to generate</param>
-            <param name="width">The preferred width in pixels</param>
-            <param name="height">The preferred height in pixels</param>
-            <returns>
-            The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)
-            </returns>
-        </member>
-        <member name="M:ZXing.Aztec.AztecWriter.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32,System.Collections.Generic.IDictionary{ZXing.EncodeHintType,System.Object})">
-            <summary>
-            </summary>
-            <param name="contents">The contents to encode in the barcode</param>
-            <param name="format">The barcode format to generate</param>
-            <param name="width">The preferred width in pixels</param>
-            <param name="height">The preferred height in pixels</param>
-            <param name="hints">Additional parameters to supply to the encoder</param>
-            <returns>
-            The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)
-            </returns>
-        </member>
         <member name="T:ZXing.Aztec.Internal.Decoder">
             <summary>
             The main class which implements Aztec Code decoding -- as opposed to locating and extracting
@@ -354,107 +297,6 @@
             <param name="dy">The dy.</param>
             <returns></returns>
         </member>
-        <member name="T:ZXing.Aztec.Internal.AztecCode">
-            <summary>
-            Aztec 2D code representation
-            </summary>
-            <author>Rustam Abdullaev</author>
-        </member>
-        <member name="P:ZXing.Aztec.Internal.AztecCode.isCompact">
-            <summary>
-            Compact or full symbol indicator
-            </summary>
-        </member>
-        <member name="P:ZXing.Aztec.Internal.AztecCode.Size">
-            <summary>
-            Size in pixels (width and height)
-            </summary>
-        </member>
-        <member name="P:ZXing.Aztec.Internal.AztecCode.Layers">
-            <summary>
-            Number of levels
-            </summary>
-        </member>
-        <member name="P:ZXing.Aztec.Internal.AztecCode.CodeWords">
-            <summary>
-            Number of data codewords
-            </summary>
-        </member>
-        <member name="P:ZXing.Aztec.Internal.AztecCode.Matrix">
-            <summary>
-            The symbol image
-            </summary>
-        </member>
-        <member name="T:ZXing.Aztec.AztecEncodingOptions">
-            <summary>
-            The class holds the available options for the <see cref="T:ZXing.Aztec.AztecWriter"/>
-            </summary>
-        </member>
-        <member name="T:ZXing.Common.EncodingOptions">
-            <summary>
-            Defines an container for encoder options
-            </summary>
-        </member>
-        <member name="M:ZXing.Common.EncodingOptions.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref="T:ZXing.Common.EncodingOptions"/> class.
-            </summary>
-        </member>
-        <member name="P:ZXing.Common.EncodingOptions.Hints">
-            <summary>
-            Gets the data container for all options
-            </summary>
-        </member>
-        <member name="P:ZXing.Common.EncodingOptions.Height">
-            <summary>
-            Specifies the height of the barcode image
-            </summary>
-        </member>
-        <member name="P:ZXing.Common.EncodingOptions.Width">
-            <summary>
-            Specifies the width of the barcode image
-            </summary>
-        </member>
-        <member name="P:ZXing.Common.EncodingOptions.PureBarcode">
-            <summary>
-            Don't put the content string into the output image.
-            </summary>
-        </member>
-        <member name="P:ZXing.Common.EncodingOptions.Margin">
-            <summary>
-            Specifies margin, in pixels, to use when generating the barcode. The meaning can vary
-            by format; for example it controls margin before and after the barcode horizontally for
-            most 1D formats.
-            </summary>
-        </member>
-        <member name="P:ZXing.Aztec.AztecEncodingOptions.ErrorCorrection">
-            <summary>
-            Representing the minimal percentage of error correction words. 
-            Note: an Aztec symbol should have a minimum of 25% EC words.
-            </summary>
-        </member>
-        <member name="T:ZXing.Aztec.Internal.Encoder">
-            <summary>
-            Generates Aztec 2D barcodes.
-            </summary>
-            <author>Rustam Abdullaev</author>
-        </member>
-        <member name="M:ZXing.Aztec.Internal.Encoder.encode(System.Byte[])">
-            <summary>
-            Encodes the given binary content as an Aztec symbol
-            </summary>
-            <param name="data">input data string</param>
-            <returns>Aztec symbol matrix with metadata</returns>
-        </member>
-        <member name="M:ZXing.Aztec.Internal.Encoder.encode(System.Byte[],System.Int32)">
-            <summary>
-            Encodes the given binary content as an Aztec symbol
-            </summary>
-            <param name="data">input data string</param>
-            <param name="minECCPercent">minimal percentange of error check words (According to ISO/IEC 24778:2008,
-            a minimum of 23% + 3 words is recommended)</param>
-            <returns>Aztec symbol matrix with metadata</returns>
-        </member>
         <member name="T:ZXing.BarcodeFormat">
             <summary>
             Enumerates barcode formats known to this package.
@@ -511,12 +353,6 @@
         </member>
         <member name="F:ZXing.BarcodeFormat.UPC_EAN_EXTENSION">
             <summary>UPC/EAN extension format. Not a stand-alone format.</summary>
-        </member>
-        <member name="F:ZXing.BarcodeFormat.MSI">
-            <summary>MSI</summary>
-        </member>
-        <member name="F:ZXing.BarcodeFormat.PLESSEY">
-            <summary>Plessey</summary>
         </member>
         <member name="F:ZXing.BarcodeFormat.All_1D">
             <summary>
@@ -671,12 +507,12 @@
         </member>
         <member name="M:ZXing.BarcodeReaderGeneric`1.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:ZXing.BarcodeReaderGeneric`1"/> class.
+            Initializes a new instance of the <see cref="!:BarcodeReaderGeneric"/> class.
             </summary>
         </member>
         <member name="M:ZXing.BarcodeReaderGeneric`1.#ctor(ZXing.Reader,System.Func{`0,ZXing.LuminanceSource},System.Func{ZXing.LuminanceSource,ZXing.Binarizer})">
             <summary>
-            Initializes a new instance of the <see cref="T:ZXing.BarcodeReaderGeneric`1"/> class.
+            Initializes a new instance of the <see cref="!:BarcodeReaderGeneric"/> class.
             </summary>
             <param name="reader">Sets the reader which should be used to find and decode the barcode.
             If null then MultiFormatReader is used</param>
@@ -797,16 +633,6 @@
             </summary>
             <value>
               <c>true</c> if image should be rotated; otherwise, <c>false</c>.
-            </value>
-        </member>
-        <member name="P:ZXing.BarcodeReaderGeneric`1.TryInverted">
-            <summary>
-            Gets or sets a value indicating whether the image should be automatically inverted
-            if no result is found in the original image.
-            ATTENTION: Please be carefully because it slows down the decoding process if it is used
-            </summary>
-            <value>
-              <c>true</c> if image should be inverted; otherwise, <c>false</c>.
             </value>
         </member>
         <member name="P:ZXing.BarcodeReaderGeneric`1.CreateLuminanceSource">
@@ -1019,13 +845,6 @@
             <param name="contents">The contents.</param>
             <returns></returns>
         </member>
-        <member name="M:ZXing.IBarcodeWriterGeneric`1.Write(ZXing.Common.BitMatrix)">
-            <summary>
-            Returns a rendered instance of the barcode which is given by a BitMatrix.
-            </summary>
-            <param name="matrix">The matrix.</param>
-            <returns></returns>
-        </member>
         <member name="M:ZXing.BarcodeWriterGeneric`1.Encode(System.String)">
             <summary>
             Encodes the specified contents and returns a BitMatrix array.
@@ -1041,15 +860,6 @@
             calling that method.
             </summary>
             <param name="contents">The contents.</param>
-            <returns></returns>
-        </member>
-        <member name="M:ZXing.BarcodeWriterGeneric`1.Write(ZXing.Common.BitMatrix)">
-            <summary>
-            Returns a rendered instance of the barcode which is given by a BitMatrix.
-            For rendering the instance of the property Renderer is used and has to be set before
-            calling that method.
-            </summary>
-            <param name="matrix">The matrix.</param>
             <returns></returns>
         </member>
         <member name="P:ZXing.BarcodeWriterGeneric`1.Format">
@@ -1089,11 +899,6 @@
         <member name="M:ZXing.IBarcodeWriter.Write(System.String)">
             <summary>
             Creates a visual representation of the contents
-            </summary>
-        </member>
-        <member name="M:ZXing.IBarcodeWriter.Write(ZXing.Common.BitMatrix)">
-            <summary>
-            Returns a rendered instance of the barcode which is given by a BitMatrix.
             </summary>
         </member>
         <member name="M:ZXing.BarcodeWriter.#ctor">
@@ -1176,16 +981,7 @@
             </summary>
             <returns>A rotated version of this object.</returns>
         </member>
-        <member name="P:ZXing.LuminanceSource.Matrix">
-            <summary> Fetches luminance data for the underlying bitmap. Values should be fetched using:
-            int luminance = array[y * width + x] &amp; 0xff;
-            
-            </summary>
-            <returns> A row-major 2D array of luminance values. Do not use result.length as it may be
-            larger than width * height bytes on some platforms. Do not modify the contents
-            of the result.
-            </returns>
-        </member>
+        <!-- Badly formed XML comment ignored for member "P:ZXing.LuminanceSource.Matrix" -->
         <member name="P:ZXing.LuminanceSource.Width">
             <returns> The width of the bitmap.</returns>
         </member>
@@ -1197,11 +993,6 @@
         </member>
         <member name="P:ZXing.LuminanceSource.RotateSupported">
             <returns> Whether this subclass supports counter-clockwise rotation.</returns>
-        </member>
-        <member name="P:ZXing.LuminanceSource.InversionSupported">
-            <summary>
-            </summary>
-            <returns>Whether this subclass supports invertion.</returns>
         </member>
         <member name="F:ZXing.BaseLuminanceSource.luminances">
             <summary>
@@ -1267,11 +1058,6 @@
             A cropped version of this object.
             </returns>
         </member>
-        <member name="M:ZXing.BaseLuminanceSource.invert">
-            <summary>
-            Inverts the luminance values (newValue = 255 - oldValue)
-            </summary>
-        </member>
         <member name="M:ZXing.BaseLuminanceSource.CreateLuminanceSource(System.Byte[],System.Int32,System.Int32)">
             <summary>
             Should create a new luminance source with the right class type.
@@ -1291,11 +1077,6 @@
             <summary>
             </summary>
             <returns> Whether this subclass supports cropping.</returns>
-        </member>
-        <member name="P:ZXing.BaseLuminanceSource.InversionSupported">
-            <summary>
-            </summary>
-            <returns>Whether this subclass supports invertion.</returns>
         </member>
         <member name="T:ZXing.Binarizer">
             <summary> This class hierarchy provides a set of methods to convert luminance data to 1 bit data.
@@ -1477,8 +1258,12 @@
             
             <p>Thanks to Jeff Griffin for proposing rewrite of these classes that relies less
             on exception-based mechanisms during parsing.</p>
+            
             </summary>
-            <author>Sean Owen</author>
+            <author>  Sean Owen
+            </author>
+            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
+            </author>
         </member>
         <member name="M:ZXing.Client.Result.ResultParser.parse(ZXing.Result)">
             <summary>
@@ -1531,8 +1316,12 @@
             
             <p>Thanks to Jeff Griffin for proposing rewrite of these classes that relies less
             on exception-based mechanisms during parsing.</p>
+            
             </summary>
-            <author>Sean Owen</author>
+            <author>  Sean Owen
+            </author>
+            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
+            </author>
         </member>
         <member name="P:ZXing.Client.Result.AddressBookParsedResult.Pronunciation">
             <summary>
@@ -1555,9 +1344,6 @@
         </member>
         <member name="P:ZXing.Client.Result.AddressBookParsedResult.Birthday">
             <return>birthday formatted as yyyyMMdd (e.g. 19780917)</return>
-        </member>
-        <member name="P:ZXing.Client.Result.AddressBookParsedResult.Geo">
-            <return>a location as a latitude/longitude pair</return>
         </member>
         <member name="T:ZXing.Client.Result.BizcardResultParser">
             <summary> Implements the "BIZCARD" address book entry format, though this has been
@@ -1820,7 +1606,16 @@
             <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
             </author>
         </member>
-        <!-- Ungültiger XML-Kommentar wurde für den Member "T:ZXing.Client.Result.VCardResultParser" ignoriert -->
+        <member name="T:ZXing.Client.Result.VCardResultParser">
+            <summary> Parses contact information formatted according to the VCard (2.1) format. This is not a complete
+            implementation but should parse information as commonly encoded in 2D barcodes.
+            
+            </summary>
+            <author>  Sean Owen
+            </author>
+            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
+            </author>
+        </member>
         <member name="M:ZXing.Client.Result.VCardResultParser.formatNames(System.Collections.Generic.IEnumerable{System.Collections.Generic.List{System.String}})">
              Formats name fields of the form "Public;John;Q.;Reverend;III" into a form like
              "Reverend John Q. Public III".
@@ -3116,6 +2911,43 @@
               true if a black point has been found, else false.
             </returns>
         </member>
+        <member name="T:ZXing.Common.EncodingOptions">
+            <summary>
+            Defines an container for encoder options
+            </summary>
+        </member>
+        <member name="M:ZXing.Common.EncodingOptions.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:ZXing.Common.EncodingOptions"/> class.
+            </summary>
+        </member>
+        <member name="P:ZXing.Common.EncodingOptions.Hints">
+            <summary>
+            Gets the data container for all options
+            </summary>
+        </member>
+        <member name="P:ZXing.Common.EncodingOptions.Height">
+            <summary>
+            Specifies the height of the barcode image
+            </summary>
+        </member>
+        <member name="P:ZXing.Common.EncodingOptions.Width">
+            <summary>
+            Specifies the width of the barcode image
+            </summary>
+        </member>
+        <member name="P:ZXing.Common.EncodingOptions.PureBarcode">
+            <summary>
+            Don't put the content string into the output image.
+            </summary>
+        </member>
+        <member name="P:ZXing.Common.EncodingOptions.Margin">
+            <summary>
+            Specifies margin, in pixels, to use when generating the barcode. The meaning can vary
+            by format; for example it controls margin before and after the barcode horizontally for
+            most 1D formats.
+            </summary>
+        </member>
         <member name="T:ZXing.Common.GlobalHistogramBinarizer">
             <summary> This Binarizer implementation uses the old ZXing global histogram approach. It is suitable
             for low-end mobile devices which don't have enough CPU or memory to use a local thresholding
@@ -3240,58 +3072,38 @@
         </member>
         <member name="T:ZXing.Common.ReedSolomon.GenericGF">
             <summary>
-              <p>This class contains utility methods for performing mathematical operations over
+            <p>This class contains utility methods for performing mathematical operations over
             the Galois Fields. Operations use a given primitive polynomial in calculations.</p>
-              <p>Throughout this package, elements of the GF are represented as an {@code int}
+            <p>Throughout this package, elements of the GF are represented as an {@code int}
             for convenience and speed (but at the cost of memory).
-              </p>
+            </p>
             </summary>
             <author>Sean Owen</author>
+            <author>David Olivier</author>
         </member>
-        <member name="M:ZXing.Common.ReedSolomon.GenericGF.#ctor(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            Create a representation of GF(size) using the given primitive polynomial.
-            </summary>
-            <param name="primitive">irreducible polynomial whose coefficients are represented by
-            *  the bits of an int, where the least-significant bit represents the constant
-            *  coefficient</param>
-            <param name="size">the size of the field</param>
-            <param name="genBase">the factor b in the generator polynomial can be 0- or 1-based
-            *  (g(x) = (x+a^b)(x+a^(b+1))...(x+a^(b+2t-1))).
-            *  In most cases it should be 1, but for QR code it is 0.</param>
+        <member name="M:ZXing.Common.ReedSolomon.GenericGF.#ctor(System.Int32,System.Int32)">
+             Create a representation of GF(size) using the given primitive polynomial.
+            
+             @param primitive irreducible polynomial whose coefficients are represented by
+              the bits of an int, where the least-significant bit represents the constant
+              coefficient
         </member>
         <member name="M:ZXing.Common.ReedSolomon.GenericGF.buildMonomial(System.Int32,System.Int32)">
-            <summary>
-            Builds the monomial.
-            </summary>
-            <param name="degree">The degree.</param>
-            <param name="coefficient">The coefficient.</param>
-            <returns>the monomial representing coefficient * x^degree</returns>
+            @return the monomial representing coefficient * x^degree
         </member>
         <member name="M:ZXing.Common.ReedSolomon.GenericGF.addOrSubtract(System.Int32,System.Int32)">
-            <summary>
-            Implements both addition and subtraction -- they are the same in GF(size).
-            </summary>
-            <returns>sum/difference of a and b</returns>
+             Implements both addition and subtraction -- they are the same in GF(size).
+            
+             @return sum/difference of a and b
         </member>
         <member name="M:ZXing.Common.ReedSolomon.GenericGF.exp(System.Int32)">
-            <summary>
-            Exps the specified a.
-            </summary>
-            <returns>2 to the power of a in GF(size)</returns>
+            @return 2 to the power of a in GF(size)
         </member>
         <member name="M:ZXing.Common.ReedSolomon.GenericGF.log(System.Int32)">
-            <summary>
-            Logs the specified a.
-            </summary>
-            <param name="a">A.</param>
-            <returns>base 2 log of a in GF(size)</returns>
+            @return base 2 log of a in GF(size)
         </member>
         <member name="M:ZXing.Common.ReedSolomon.GenericGF.inverse(System.Int32)">
-            <summary>
-            Inverses the specified a.
-            </summary>
-            <returns>multiplicative inverse of a</returns>
+            @return multiplicative inverse of a
         </member>
         <member name="M:ZXing.Common.ReedSolomon.GenericGF.multiply(System.Int32,System.Int32)">
             <summary>
@@ -3300,24 +3112,6 @@
             <param name="a">A.</param>
             <param name="b">The b.</param>
             <returns>product of a and b in GF(size)</returns>
-        </member>
-        <member name="M:ZXing.Common.ReedSolomon.GenericGF.ToString">
-            <summary>
-            Returns a <see cref="T:System.String"/> that represents this instance.
-            </summary>
-            <returns>
-            A <see cref="T:System.String"/> that represents this instance.
-            </returns>
-        </member>
-        <member name="P:ZXing.Common.ReedSolomon.GenericGF.Size">
-            <summary>
-            Gets the size.
-            </summary>
-        </member>
-        <member name="P:ZXing.Common.ReedSolomon.GenericGF.GeneratorBase">
-            <summary>
-            Gets the generator base.
-            </summary>
         </member>
         <member name="T:ZXing.Common.ReedSolomon.GenericGFPoly">
             <summary>
@@ -3384,26 +3178,37 @@
             port of his C++ Reed-Solomon implementation.</p>
             
             </summary>
-            <author>Sean Owen</author>
-            <author>William Rucklidge</author>
-            <author>sanfordsquires</author>
+            <author>  Sean Owen
+            </author>
+            <author>  William Rucklidge
+            </author>
+            <author>  sanfordsquires
+            </author>
+            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
+            </author>
         </member>
         <member name="M:ZXing.Common.ReedSolomon.ReedSolomonDecoder.decode(System.Int32[],System.Int32)">
-            <summary>
-              <p>Decodes given set of received codewords, which include both data and error-correction
+            <summary> <p>Decodes given set of received codewords, which include both data and error-correction
             codewords. Really, this means it uses Reed-Solomon to detect and correct errors, in-place,
             in the input.</p>
+            
             </summary>
-            <param name="received">data and error-correction codewords</param>
-            <param name="twoS">number of error-correction codewords available</param>
-            <returns>false: decoding fails</returns>
+            <param name="received">data and error-correction codewords
+            </param>
+            <param name="twoS">number of error-correction codewords available
+            </param>
+            <throws>  ReedSolomonException if decoding fails for any reason </throws>
         </member>
         <member name="T:ZXing.Common.ReedSolomon.ReedSolomonEncoder">
-            <summary>
-            Implements Reed-Solomon encoding, as the name implies.
+            <summary> <p>Implements Reed-Solomon enbcoding, as the name implies.</p>
+            
             </summary>
-            <author>Sean Owen</author>
-            <author>William Rucklidge</author>
+            <author>  Sean Owen
+            </author>
+            <author>  William Rucklidge
+            </author>
+            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
+            </author>
         </member>
         <member name="T:ZXing.Common.StringUtils">
             <summary>
@@ -3448,34 +3253,12 @@
              @see com.google.zxing.qrcode.QRCodeReader#extractPureBits(BitMatrix)
              </summary>
         </member>
-        <member name="T:ZXing.Datamatrix.DataMatrixWriter">
-            <summary>
-            This object renders a Data Matrix code as a BitMatrix 2D array of greyscale values.
-            </summary>
-            <author>dswitkin@google.com (Daniel Switkin)</author>
-            <author>Guillaume Le Biller Added to zxing lib.</author>
-        </member>
-        <member name="M:ZXing.Datamatrix.DataMatrixWriter.encodeLowLevel(ZXing.Datamatrix.Encoder.DefaultPlacement,ZXing.Datamatrix.Encoder.SymbolInfo)">
-            <summary>
-            Encode the given symbol info to a bit matrix.
-            </summary>
-            <param name="placement">The DataMatrix placement.</param>
-            <param name="symbolInfo">The symbol info to encode.</param>
-            <returns>The bit matrix generated.</returns>
-        </member>
-        <member name="M:ZXing.Datamatrix.DataMatrixWriter.convertByteMatrixToBitMatrix(ZXing.QrCode.Internal.ByteMatrix)">
-            <summary>
-            Convert the ByteMatrix to BitMatrix.
-            </summary>
-            <param name="matrix">The input matrix.</param>
-            <returns>The output matrix.</returns>
-        </member>
         <member name="T:ZXing.Datamatrix.Internal.BitMatrixParser">
             <summary>
             <author>bbrown@google.com (Brian Brown)</author>
             </summary>
         </member>
-        <!-- Ungültiger XML-Kommentar wurde für den Member "M:ZXing.Datamatrix.Internal.BitMatrixParser.#ctor(ZXing.Common.BitMatrix)" ignoriert -->
+        <!-- Badly formed XML comment ignored for member "M:ZXing.Datamatrix.Internal.BitMatrixParser.#ctor(ZXing.Common.BitMatrix)" -->
         <member name="M:ZXing.Datamatrix.Internal.BitMatrixParser.readVersion(ZXing.Common.BitMatrix)">
              <summary>
              <p>Creates the version object based on the dimension of the original bit matrix from 
@@ -3785,232 +3568,6 @@
             Orders ResultPointsAndTransitions by number of transitions, ascending.
             </summary>
         </member>
-        <member name="M:ZXing.Datamatrix.Encoder.C40Encoder.handleEOD(ZXing.Datamatrix.Encoder.EncoderContext,System.Text.StringBuilder)">
-            <summary>
-            Handle "end of data" situations
-            </summary>
-            <param name="context">the encoder context</param>
-            <param name="buffer">the buffer with the remaining encoded characters</param>
-        </member>
-        <member name="T:ZXing.Datamatrix.DatamatrixEncodingOptions">
-            <summary>
-            The class holds the available options for the DatamatrixWriter
-            </summary>
-        </member>
-        <member name="P:ZXing.Datamatrix.DatamatrixEncodingOptions.SymbolShape">
-            <summary>
-            Specifies the matrix shape for Data Matrix
-            </summary>
-        </member>
-        <member name="P:ZXing.Datamatrix.DatamatrixEncodingOptions.MinSize">
-            <summary>
-            Specifies a minimum barcode size
-            </summary>
-        </member>
-        <member name="P:ZXing.Datamatrix.DatamatrixEncodingOptions.MaxSize">
-            <summary>
-            Specifies a maximum barcode size
-            </summary>
-        </member>
-        <member name="T:ZXing.Datamatrix.Encoder.SymbolInfo">
-            <summary>
-            Symbol info table for DataMatrix.
-            </summary>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.SymbolInfo.overrideSymbolSet(ZXing.Datamatrix.Encoder.SymbolInfo[])">
-             Overrides the symbol info set used by this class. Used for testing purposes.
-            
-             @param override the symbol info set to use
-        </member>
-        <member name="T:ZXing.Datamatrix.Encoder.DefaultPlacement">
-            <summary>
-            Symbol Character Placement Program. Adapted from Annex M.1 in ISO/IEC 16022:2000(E).
-            </summary>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.DefaultPlacement.#ctor(System.String,System.Int32,System.Int32)">
-            <summary>
-            Main constructor
-            </summary>
-            <param name="codewords">the codewords to place</param>
-            <param name="numcols">the number of columns</param>
-            <param name="numrows">the number of rows</param>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.DefaultPlacement.utah(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            Places the 8 bits of a utah-shaped symbol character in ECC200.
-            </summary>
-            <param name="row">The row.</param>
-            <param name="col">The col.</param>
-            <param name="pos">character position</param>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.EdifactEncoder.handleEOD(ZXing.Datamatrix.Encoder.EncoderContext,System.Text.StringBuilder)">
-            <summary>
-            Handle "end of data" situations
-            </summary>
-            <param name="context">the encoder context</param>
-            <param name="buffer">the buffer with the remaining encoded characters</param>
-        </member>
-        <member name="T:ZXing.Datamatrix.Encoder.ErrorCorrection">
-            <summary>
-            Error Correction Code for ECC200.
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.ErrorCorrection.FACTOR_SETS">
-            <summary>
-            Lookup table which factors to use for which number of error correction codewords.
-            See FACTORS.
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.ErrorCorrection.FACTORS">
-            <summary>
-            Precomputed polynomial factors for ECC 200.
-            </summary>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.ErrorCorrection.encodeECC200(System.String,ZXing.Datamatrix.Encoder.SymbolInfo)">
-            <summary>
-            Creates the ECC200 error correction for an encoded message.
-            </summary>
-            <param name="codewords">The codewords.</param>
-            <param name="symbolInfo">information about the symbol to be encoded</param>
-            <returns>the codewords with interleaved error correction.</returns>
-        </member>
-        <member name="T:ZXing.Datamatrix.Encoder.HighLevelEncoder">
-            <summary>
-            DataMatrix ECC 200 data encoder following the algorithm described in ISO/IEC 16022:200(E) in
-            annex S.
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.PAD">
-            <summary>
-            Padding character
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.LATCH_TO_C40">
-            <summary>
-            mode latch to C40 encodation mode
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.LATCH_TO_BASE256">
-            <summary>
-            mode latch to Base 256 encodation mode
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.FNC1">
-            <summary>
-            FNC1 Codeword
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.STRUCTURED_APPEND">
-            <summary>
-            Structured Append Codeword
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.READER_PROGRAMMING">
-            <summary>
-            Reader Programming
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.UPPER_SHIFT">
-            <summary>
-            Upper Shift
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.MACRO_05">
-            <summary>
-            05 Macro
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.MACRO_06">
-            <summary>
-            06 Macro
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.LATCH_TO_ANSIX12">
-            <summary>
-            mode latch to ANSI X.12 encodation mode
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.LATCH_TO_TEXT">
-            <summary>
-            mode latch to Text encodation mode
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.LATCH_TO_EDIFACT">
-            <summary>
-            mode latch to EDIFACT encodation mode
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.ECI">
-            <summary>
-            ECI character (Extended Channel Interpretation)
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.C40_UNLATCH">
-            <summary>
-            Unlatch from C40 encodation
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.X12_UNLATCH">
-            <summary>
-            Unlatch from X12 encodation
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.MACRO_05_HEADER">
-            <summary>
-            05 Macro header
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.MACRO_06_HEADER">
-            <summary>
-            06 Macro header
-            </summary>
-        </member>
-        <member name="F:ZXing.Datamatrix.Encoder.HighLevelEncoder.MACRO_TRAILER">
-            <summary>
-            Macro trailer
-            </summary>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.HighLevelEncoder.getBytesForMessage(System.String)">
-            <summary>
-            Converts the message to a byte array using the default encoding (cp437) as defined by the
-            specification
-            </summary>
-            <param name="msg">the message</param>
-            <returns>the byte array of the message</returns>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.HighLevelEncoder.encodeHighLevel(System.String)">
-            <summary>
-            Performs message encoding of a DataMatrix message using the algorithm described in annex P
-            of ISO/IEC 16022:2000(E).
-            </summary>
-            <param name="msg">the message</param>
-            <returns>the encoded message (the char values range from 0 to 255)</returns>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.HighLevelEncoder.encodeHighLevel(System.String,ZXing.Datamatrix.Encoder.SymbolShapeHint,ZXing.Dimension,ZXing.Dimension)">
-            <summary>
-            Performs message encoding of a DataMatrix message using the algorithm described in annex P
-            of ISO/IEC 16022:2000(E).
-            </summary>
-            <param name="msg">the message</param>
-            <param name="shape">requested shape. May be {@code SymbolShapeHint.FORCE_NONE},{@code SymbolShapeHint.FORCE_SQUARE} or {@code SymbolShapeHint.FORCE_RECTANGLE}.</param>
-            <param name="minSize">the minimum symbol size constraint or null for no constraint</param>
-            <param name="maxSize">the maximum symbol size constraint or null for no constraint</param>
-            <returns>the encoded message (the char values range from 0 to 255)</returns>
-        </member>
-        <member name="M:ZXing.Datamatrix.Encoder.HighLevelEncoder.determineConsecutiveDigitCount(System.String,System.Int32)">
-            <summary>
-            Determines the number of consecutive characters that are encodable using numeric compaction.
-            </summary>
-            <param name="msg">the message</param>
-            <param name="startpos">the start position within the message</param>
-            <returns>the requested character count</returns>
-        </member>
-        <member name="T:ZXing.Datamatrix.Encoder.SymbolShapeHint">
-            <summary>
-            Enumeration for DataMatrix symbol shape hint. It can be used to force square or rectangular
-            symbols.   
-            </summary>
-        </member>
         <member name="T:ZXing.DecodeHintType">
             <summary>
             Encapsulates a type of hint that a caller may pass to a barcode reader to help it
@@ -4065,44 +3622,6 @@
             is found. Maps to a <see cref="T:ZXing.ResultPointCallback"/>.
             </summary>
         </member>
-        <member name="F:ZXing.DecodeHintType.ASSUME_MSI_CHECK_DIGIT">
-            <summary>
-            Assume MSI codes employ a check digit. Maps to <see cref="T:System.Boolean"/>.
-            </summary>
-        </member>
-        <member name="F:ZXing.DecodeHintType.USE_CODE_39_EXTENDED_MODE">
-            <summary>
-            if Code39 could be detected try to use extended mode for full ASCII character set
-            Maps to <see cref="T:System.Boolean"/>.
-            </summary>
-        </member>
-        <member name="F:ZXing.DecodeHintType.RELAXED_CODE_39_EXTENDED_MODE">
-            <summary>
-            Don't fail if a Code39 is detected but can't be decoded in extended mode.
-            Return the raw Code39 result instead. Maps to <see cref="T:System.Boolean"/>.
-            </summary>
-        </member>
-        <member name="F:ZXing.DecodeHintType.TRY_HARDER_WITHOUT_ROTATION">
-            <summary>
-            1D readers supporting rotation with TRY_HARDER enabled.
-            But BarcodeReader class can do auto-rotating for 1D and 2D codes.
-            Enabling that option prevents 1D readers doing double rotation.
-            BarcodeReader enables that option automatically if "global" auto-rotation is enabled.
-            Maps to <see cref="T:System.Boolean"/>.
-            </summary>
-        </member>
-        <member name="F:ZXing.DecodeHintType.ASSUME_GS1">
-            <summary>
-            Assume the barcode is being processed as a GS1 barcode, and modify behavior as needed.
-            For example this affects FNC1 handling for Code 128 (aka GS1-128). Doesn't matter what it maps to;
-            use <see cref="T:System.Boolean"/>.
-            </summary>
-        </member>
-        <member name="T:ZXing.Dimension">
-            <summary>
-            Simply encapsulates a width and height.
-            </summary>
-        </member>
         <member name="T:ZXing.EncodeHintType">
             <summary>
             These are a set of hints that you may pass to Writers to specify their behavior.
@@ -4132,8 +3651,6 @@
             Specifies what degree of error correction to use, for example in QR Codes.
             Type depends on the encoder. For example for QR codes it's type
             <see cref="T:ZXing.QrCode.Internal.ErrorCorrectionLevel"/>
-            For Aztec it is of type <see cref="T:System.Int32"/>, representing the minimal percentage of error correction words. 
-            Note: an Aztec symbol should have a minimum of 25% EC words.
             </summary>
         </member>
         <member name="F:ZXing.EncodeHintType.CHARACTER_SET">
@@ -4168,32 +3685,6 @@
             type: <see cref="T:ZXing.PDF417.Internal.Dimensions"/>
             </summary>
         </member>
-        <member name="F:ZXing.EncodeHintType.DISABLE_ECI">
-            <summary>
-            Don't append ECI segment.
-            That is against the specification of QR Code but some
-            readers have problems if the charset is switched from
-            ISO-8859-1 (default) to UTF-8 with the necessary ECI segment.
-            If you set the property to true you can use UTF-8 encoding
-            and the ECI segment is omitted.
-            type: <see cref="T:System.Boolean"/>
-            </summary>
-        </member>
-        <member name="F:ZXing.EncodeHintType.DATA_MATRIX_SHAPE">
-            <summary>
-            Specifies the matrix shape for Data Matrix (type {@link com.google.zxing.datamatrix.encoder.SymbolShapeHint})
-            </summary>
-        </member>
-        <member name="F:ZXing.EncodeHintType.MIN_SIZE">
-            <summary>
-            Specifies a minimum barcode size (type {@link Dimension}). Only applicable to Data Matrix now.
-            </summary>
-        </member>
-        <member name="F:ZXing.EncodeHintType.MAX_SIZE">
-            <summary>
-            Specifies a maximum barcode size (type {@link Dimension}). Only applicable to Data Matrix now.
-            </summary>
-        </member>
         <member name="T:ZXing.FormatException">
             <summary>
             Thrown when a barcode was successfully detected, but some aspect of
@@ -4219,91 +3710,6 @@
             <summary>
             Gets the instance.
             </summary>
-        </member>
-        <member name="T:ZXing.InvertedLuminanceSource">
-            <summary>
-            A wrapper implementation of {@link LuminanceSource} which inverts the luminances it returns -- black becomes
-            white and vice versa, and each value becomes (255-value).
-            </summary>
-            <author>Sean Owen</author>
-        </member>
-        <member name="M:ZXing.InvertedLuminanceSource.#ctor(ZXing.LuminanceSource)">
-            <summary>
-            Initializes a new instance of the <see cref="T:ZXing.InvertedLuminanceSource"/> class.
-            </summary>
-            <param name="delegate">The @delegate.</param>
-        </member>
-        <member name="M:ZXing.InvertedLuminanceSource.getRow(System.Int32,System.Byte[])">
-            <summary>
-            Fetches one row of luminance data from the underlying platform's bitmap. Values range from
-            0 (black) to 255 (white). Because Java does not have an unsigned byte type, callers will have
-            to bitwise and with 0xff for each value. It is preferable for implementations of this method
-            to only fetch this row rather than the whole image, since no 2D Readers may be installed and
-            getMatrix() may never be called.
-            </summary>
-            <param name="y">The row to fetch, 0 &lt;= y &lt; Height.</param>
-            <param name="row">An optional preallocated array. If null or too small, it will be ignored.
-            Always use the returned object, and ignore the .length of the array.</param>
-            <returns>
-            An array containing the luminance data.
-            </returns>
-        </member>
-        <member name="M:ZXing.InvertedLuminanceSource.crop(System.Int32,System.Int32,System.Int32,System.Int32)">
-            <summary>
-            Returns a new object with cropped image data. Implementations may keep a reference to the
-            original data rather than a copy. Only callable if CropSupported is true.
-            </summary>
-            <param name="left">The left coordinate, 0 &lt;= left &lt; Width.</param>
-            <param name="top">The top coordinate, 0 &lt;= top &lt;= Height.</param>
-            <param name="width">The width of the rectangle to crop.</param>
-            <param name="height">The height of the rectangle to crop.</param>
-            <returns>
-            A cropped version of this object.
-            </returns>
-        </member>
-        <member name="M:ZXing.InvertedLuminanceSource.invert">
-            <summary>
-            Inverts this instance.
-            </summary>
-            <returns>original delegate {@link LuminanceSource} since invert undoes itself</returns>
-        </member>
-        <member name="M:ZXing.InvertedLuminanceSource.rotateCounterClockwise">
-            <summary>
-            Returns a new object with rotated image data by 90 degrees counterclockwise.
-            Only callable if {@link #isRotateSupported()} is true.
-            </summary>
-            <returns>
-            A rotated version of this object.
-            </returns>
-        </member>
-        <member name="M:ZXing.InvertedLuminanceSource.rotateCounterClockwise45">
-            <summary>
-            Returns a new object with rotated image data by 45 degrees counterclockwise.
-            Only callable if {@link #isRotateSupported()} is true.
-            </summary>
-            <returns>
-            A rotated version of this object.
-            </returns>
-        </member>
-        <member name="P:ZXing.InvertedLuminanceSource.Matrix">
-            <summary>
-            Fetches luminance data for the underlying bitmap. Values should be fetched using:
-            int luminance = array[y * width + x] &amp; 0xff;
-            </summary>
-            <returns> A row-major 2D array of luminance values. Do not use result.length as it may be
-            larger than width * height bytes on some platforms. Do not modify the contents
-            of the result.
-              </returns>
-        </member>
-        <member name="P:ZXing.InvertedLuminanceSource.CropSupported">
-            <summary>
-            </summary>
-            <returns> Whether this subclass supports cropping.</returns>
-        </member>
-        <member name="P:ZXing.InvertedLuminanceSource.RotateSupported">
-            <summary>
-            </summary>
-            <returns> Whether this subclass supports counter-clockwise rotation.</returns>
         </member>
         <member name="T:ZXing.Maxicode.Internal.BitMatrixParser">
             <summary>
@@ -4435,6 +3841,34 @@
             </author>
             <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
             </author>
+        </member>
+        <member name="T:ZXing.Writer">
+            <summary> The base class for all objects which encode/generate a barcode image.
+            
+            </summary>
+            <author>  dswitkin@google.com (Daniel Switkin)
+            </author>
+            <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
+            </author>
+        </member>
+        <member name="M:ZXing.Writer.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32)">
+            <summary>
+            Encode a barcode using the default settings.
+            </summary>
+            <param name="contents">The contents to encode in the barcode</param>
+            <param name="format">The barcode format to generate</param>
+            <param name="width">The preferred width in pixels</param>
+            <param name="height">The preferred height in pixels</param>
+            <returns> The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)</returns>
+        </member>
+        <member name="M:ZXing.Writer.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32,System.Collections.Generic.IDictionary{ZXing.EncodeHintType,System.Object})">
+            <summary> </summary>
+            <param name="contents">The contents to encode in the barcode</param>
+            <param name="format">The barcode format to generate</param>
+            <param name="width">The preferred width in pixels</param>
+            <param name="height">The preferred height in pixels</param>
+            <param name="hints">Additional parameters to supply to the encoder</param>
+            <returns> The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)</returns>
         </member>
         <member name="P:ZXing.MultiFormatWriter.SupportedWriters">
             <summary>
@@ -4649,8 +4083,8 @@
             <param name="hints">The hints.</param>
             <returns></returns>
         </member>
-        <!-- Ungültiger XML-Kommentar wurde für den Member "T:ZXing.Multi.QrCode.Internal.MultiFinderPatternFinder" ignoriert -->
-        <!-- Ungültiger XML-Kommentar wurde für den Member "T:ZXing.QrCode.Internal.FinderPatternFinder" ignoriert -->
+        <!-- Badly formed XML comment ignored for member "T:ZXing.Multi.QrCode.Internal.MultiFinderPatternFinder" -->
+        <!-- Badly formed XML comment ignored for member "T:ZXing.QrCode.Internal.FinderPatternFinder" -->
         <member name="F:ZXing.QrCode.Internal.FinderPatternFinder.MIN_SKIP">
             <summary>
             1 pixel/module times 3 modules/center
@@ -4958,18 +4392,6 @@
             <param name="start">offset into row to start at</param>
             <param name="counters">array into which to record counts</param>
         </member>
-        <member name="M:ZXing.OneD.OneDReader.recordPattern(ZXing.Common.BitArray,System.Int32,System.Int32[],System.Int32)">
-            <summary>
-            Records the size of successive runs of white and black pixels in a row, starting at a given point.
-            The values are recorded in the given array, and the number of runs recorded is equal to the size
-            of the array. If the row starts on a white pixel at the given start point, then the first count
-            recorded is the run of white pixels starting from that point; likewise it is the count of a run
-            of black pixels if the row begin on a black pixels at that point.
-            </summary>
-            <param name="row">row to count from</param>
-            <param name="start">offset into row to start at</param>
-            <param name="counters">array into which to record counts</param>
-        </member>
         <member name="M:ZXing.OneD.OneDReader.recordPatternInReverse(ZXing.Common.BitArray,System.Int32,System.Int32[])">
             <summary>
             Records the pattern in reverse.
@@ -5118,22 +4540,25 @@
             </summary>
         </member>
         <member name="M:ZXing.OneD.Code39Reader.#ctor(System.Boolean)">
-            <summary>
-            Creates a reader that can be configured to check the last character as a check digit.
-            It will not decoded "extended Code 39" sequences.
-            </summary>
-            <param name="usingCheckDigit">if true, treat the last data character as a check digit, not
-            data, and verify that the checksum passes.</param>
+             <summary>
+             Creates a reader that can be configured to check the last character as a check digit.
+             It will not decoded "extended Code 39" sequences.
+            
+             <param name="usingCheckDigit">if true, treat the last data character as a check digit, not</param>
+             data, and verify that the checksum passes.
+             </summary>
         </member>
         <member name="M:ZXing.OneD.Code39Reader.#ctor(System.Boolean,System.Boolean)">
-            <summary>
-            Creates a reader that can be configured to check the last character as a check digit,
-            or optionally attempt to decode "extended Code 39" sequences that are used to encode
-            the full ASCII character set.
-            </summary>
-            <param name="usingCheckDigit">if true, treat the last data character as a check digit, not
-            data, and verify that the checksum passes.</param>
-            <param name="extendedMode">if true, will attempt to decode extended Code 39 sequences in the text.</param>
+             <summary>
+             Creates a reader that can be configured to check the last character as a check digit,
+             or optionally attempt to decode "extended Code 39" sequences that are used to encode
+             the full ASCII character set.
+            
+             <param name="usingCheckDigit">if true, treat the last data character as a check digit, not</param>
+             data, and verify that the checksum passes.
+             <param name="extendedMode">if true, will attempt to decode extended Code 39 sequences in the</param>
+             text.
+             </summary>
         </member>
         <member name="M:ZXing.OneD.Code39Reader.decodeRow(System.Int32,ZXing.Common.BitArray,System.Collections.Generic.IDictionary{ZXing.DecodeHintType,System.Object})">
             <summary>
@@ -5473,7 +4898,7 @@
              <p>Implements decoding of the ITF format, or Interleaved Two of Five.</p>
             
              <p>This Reader will scan ITF barcodes of certain lengths only.
-             At the moment it reads length 6, 8, 10, 12, 14, 16, 18, 20, 24, and 44 as these have appeared "in the wild". Not all
+             At the moment it reads length 6, 10, 12, 14, 16, 24, and 44 as these have appeared "in the wild". Not all
              lengths are scanned, especially shorter ones, to avoid false positives. This in turn is due to a lack of
              required checksum function.</p>
             
@@ -5585,123 +5010,6 @@
             
             <author>erik.barbara@gmail.com (Erik Barbara)</author>
             </summary>
-        </member>
-        <member name="M:ZXing.OneD.ITFWriter.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32,System.Collections.Generic.IDictionary{ZXing.EncodeHintType,System.Object})">
-            <summary>
-            Encode the contents following specified format.
-            {@code width} and {@code height} are required size. This method may return bigger size
-            {@code BitMatrix} when specified size is too small. The user can set both {@code width} and
-            {@code height} to zero to get minimum size barcode. If negative value is set to {@code width}
-            or {@code height}, {@code IllegalArgumentException} is thrown.
-            </summary>
-            <param name="contents"></param>
-            <param name="format"></param>
-            <param name="width"></param>
-            <param name="height"></param>
-            <param name="hints"></param>
-            <returns></returns>
-        </member>
-        <member name="M:ZXing.OneD.ITFWriter.encode(System.String)">
-            <summary>
-            Encode the contents to bool array expression of one-dimensional barcode.
-            Start code and end code should be included in result, and side margins should not be included.
-            <returns>a {@code bool[]} of horizontal pixels (false = white, true = black)</returns>
-            </summary>
-            <param name="contents"></param>
-            <returns></returns>
-        </member>
-        <member name="T:ZXing.OneD.MSIReader">
-            <summary>
-            Decodes MSI barcodes.
-            </summary>
-        </member>
-        <member name="F:ZXing.OneD.MSIReader.CHARACTER_ENCODINGS">
-            <summary>
-            These represent the encodings of characters, as patterns of wide and narrow bars.
-            The 9 least-significant bits of each int correspond to the pattern of wide and narrow,
-            with 1s representing "wide" and 0s representing narrow.
-            </summary>
-        </member>
-        <member name="M:ZXing.OneD.MSIReader.#ctor">
-            <summary>
-            Creates a reader that assumes all encoded data is data, and does not treat the final
-            character as a check digit.
-            </summary>
-        </member>
-        <member name="M:ZXing.OneD.MSIReader.#ctor(System.Boolean)">
-            <summary>
-            Creates a reader that can be configured to check the last character as a check digit,
-            </summary>
-            <param name="usingCheckDigit">if true, treat the last data character as a check digit, not
-            data, and verify that the checksum passes.</param>
-        </member>
-        <member name="M:ZXing.OneD.MSIReader.decodeRow(System.Int32,ZXing.Common.BitArray,System.Collections.Generic.IDictionary{ZXing.DecodeHintType,System.Object})">
-            <summary>
-              <p>Attempts to decode a one-dimensional barcode format given a single row of
-            an image.</p>
-            </summary>
-            <param name="rowNumber">row number from top of the row</param>
-            <param name="row">the black/white pixel data of the row</param>
-            <param name="hints">decode hints</param>
-            <returns><see cref="T:ZXing.Result"/>containing encoded string and start/end of barcode</returns>
-        </member>
-        <member name="T:ZXing.OneD.MSIWriter">
-            <summary>
-            This object renders a MSI code as a <see cref="T:ZXing.Common.BitMatrix"/>.
-            </summary>
-        </member>
-        <member name="M:ZXing.OneD.MSIWriter.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32,System.Collections.Generic.IDictionary{ZXing.EncodeHintType,System.Object})">
-            <summary>
-            Encode the contents following specified format.
-            {@code width} and {@code height} are required size. This method may return bigger size
-            {@code BitMatrix} when specified size is too small. The user can set both {@code width} and
-            {@code height} to zero to get minimum size barcode. If negative value is set to {@code width}
-            or {@code height}, {@code IllegalArgumentException} is thrown.
-            </summary>
-            <param name="contents"></param>
-            <param name="format"></param>
-            <param name="width"></param>
-            <param name="height"></param>
-            <param name="hints"></param>
-            <returns></returns>
-        </member>
-        <member name="M:ZXing.OneD.MSIWriter.encode(System.String)">
-            <summary>
-            Encode the contents to byte array expression of one-dimensional barcode.
-            Start code and end code should be included in result, and side margins should not be included.
-            <returns>a {@code boolean[]} of horizontal pixels (false = white, true = black)</returns>
-            </summary>
-            <param name="contents"></param>
-            <returns></returns>
-        </member>
-        <member name="T:ZXing.OneD.PlesseyWriter">
-            <summary>
-            This object renders a Plessey code as a <see cref="T:ZXing.Common.BitMatrix"/>.
-            </summary>
-        </member>
-        <member name="M:ZXing.OneD.PlesseyWriter.encode(System.String,ZXing.BarcodeFormat,System.Int32,System.Int32,System.Collections.Generic.IDictionary{ZXing.EncodeHintType,System.Object})">
-            <summary>
-            Encode the contents following specified format.
-            {@code width} and {@code height} are required size. This method may return bigger size
-            {@code BitMatrix} when specified size is too small. The user can set both {@code width} and
-            {@code height} to zero to get minimum size barcode. If negative value is set to {@code width}
-            or {@code height}, {@code IllegalArgumentException} is thrown.
-            </summary>
-            <param name="contents"></param>
-            <param name="format"></param>
-            <param name="width"></param>
-            <param name="height"></param>
-            <param name="hints"></param>
-            <returns></returns>
-        </member>
-        <member name="M:ZXing.OneD.PlesseyWriter.encode(System.String)">
-            <summary>
-            Encode the contents to byte array expression of one-dimensional barcode.
-            Start code and end code should be included in result, and side margins should not be included.
-            <returns>a {@code boolean[]} of horizontal pixels (false = white, true = black)</returns>
-            </summary>
-            <param name="contents"></param>
-            <returns></returns>
         </member>
         <member name="T:ZXing.OneD.MultiFormatOneDReader">
             <summary>
@@ -6268,7 +5576,7 @@
             @see UPCEANExtension5Support
             </summary>
         </member>
-        <!-- Ungültiger XML-Kommentar wurde für den Member "M:ZXing.OneD.UPCEANExtension2Support.parseExtensionString(System.String)" ignoriert -->
+        <!-- Badly formed XML comment ignored for member "M:ZXing.OneD.UPCEANExtension2Support.parseExtensionString(System.String)" -->
         <member name="T:ZXing.OneD.UPCEANExtension5Support">
             @see UPCEANExtension2Support
         </member>
@@ -7262,6 +6570,13 @@
             The generated barcode as a Matrix of unsigned bytes (0 == black, 255 == white)
             </returns>
         </member>
+        <member name="M:ZXing.PDF417.PDF417Writer.encode(System.String,ZXing.BarcodeFormat,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,ZXing.PDF417.Internal.Compaction)">
+            <summary>
+            Use <see cref="!:encode(String, BarcodeFormat, int, int, IDictionary&lt;TKey, TValue&gt;)"/> instead, with hints to
+            specify the encoding options.
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:ZXing.PDF417.PDF417Writer.bitMatrixFromEncoder(ZXing.PDF417.Internal.PDF417,System.String,System.Int32,System.Int32)">
             <summary>
             Takes encoder, accounts for width/height, and retrieves bit matrix
@@ -7303,14 +6618,6 @@
             <param name="height">The height.</param>
             <param name="reverseHoriz">if set to <c>true</c> [reverse horiz].</param>
         </member>
-        <member name="M:ZXing.PlanarYUVLuminanceSource.#ctor(System.Byte[],System.Int32,System.Int32)">
-            <summary>
-            Initializes a new instance of the <see cref="T:ZXing.PlanarYUVLuminanceSource"/> class.
-            </summary>
-            <param name="luminances">The luminances.</param>
-            <param name="width">The width.</param>
-            <param name="height">The height.</param>
-        </member>
         <member name="M:ZXing.PlanarYUVLuminanceSource.getRow(System.Int32,System.Byte[])">
             <summary>
             Fetches one row of luminance data from the underlying platform's bitmap. Values range from
@@ -7339,7 +6646,7 @@
             A cropped version of this object.
             </returns>
         </member>
-        <member name="M:ZXing.PlanarYUVLuminanceSource.renderThumbnail">
+        <member name="M:ZXing.PlanarYUVLuminanceSource.renderCroppedGreyscaleBitmap">
             <summary>
             Renders the cropped greyscale bitmap.
             </summary>
@@ -7354,16 +6661,6 @@
             <summary>
             </summary>
             <returns> Whether this subclass supports cropping.</returns>
-        </member>
-        <member name="P:ZXing.PlanarYUVLuminanceSource.ThumbnailWidth">
-            <summary>
-            width of image from {@link #renderThumbnail()}
-            </summary>
-        </member>
-        <member name="P:ZXing.PlanarYUVLuminanceSource.ThumbnailHeight">
-            <summary>
-            height of image from {@link #renderThumbnail()}
-            </summary>
         </member>
         <member name="T:ZXing.QrCode.Internal.BitMatrixParser">
             <author>  Sean Owen
@@ -8084,13 +7381,7 @@
             Gets the top right.
             </summary>
         </member>
-        <member name="T:ZXing.QrCode.Internal.ByteMatrix">
-            <summary>
-            JAVAPORT: The original code was a 2D array of ints, but since it only ever gets assigned
-            0, 1 and 2 I'm going to use less memory and go with bytes.
-            </summary>
-            <author>dswitkin@google.com (Daniel Switkin)</author>
-        </member>
+        <!-- Badly formed XML comment ignored for member "T:ZXing.QrCode.Internal.ByteMatrix" -->
         <member name="M:ZXing.QrCode.Internal.ByteMatrix.#ctor(System.Int32,System.Int32)">
             <summary>
             Initializes a new instance of the <see cref="T:ZXing.QrCode.Internal.ByteMatrix"/> class.
@@ -8145,7 +7436,7 @@
         </member>
         <member name="P:ZXing.QrCode.Internal.ByteMatrix.Array">
             <summary>
-            an internal representation as bytes, in row-major order. array[y][x] represents point (x,y)
+            Gets the array.
             </summary>
         </member>
         <member name="T:ZXing.QrCode.Internal.Encoder">
@@ -8570,14 +7861,28 @@
             Specifies what character encoding to use where applicable (type {@link String})
             </summary>
         </member>
-        <member name="P:ZXing.QrCode.QrCodeEncodingOptions.DisableECI">
+        <member name="T:ZXing.qrcode.Internal.QRCodeDetectorResult">
             <summary>
-            Explicitly disables ECI segment when generating QR Code
-            That is against the specification of QR Code but some
-            readers have problems if the charset is switched from
-            ISO-8859-1 (default) to UTF-8 with the necessary ECI segment.
-            If you set the property to true you can use UTF-8 encoding
-            and the ECI segment is omitted.
+            The class contains all information about the QRCode which was found
+            </summary>
+        </member>
+        <member name="M:ZXing.qrcode.Internal.QRCodeDetectorResult.#ctor(ZXing.Common.BitMatrix,ZXing.ResultPoint[],System.Single,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ZXing.qrcode.Internal.QRCodeDetectorResult"/> class.
+            </summary>
+            <param name="bits"></param>
+            <param name="points"></param>
+            <param name="moduleSize"></param>
+            <param name="dimension"></param>
+        </member>
+        <member name="P:ZXing.qrcode.Internal.QRCodeDetectorResult.ModuleSize">
+            <summary>
+            ModuleSize
+            </summary>
+        </member>
+        <member name="P:ZXing.qrcode.Internal.QRCodeDetectorResult.Dimension">
+            <summary>
+            Dimension
             </summary>
         </member>
         <member name="T:ZXing.QrCode.QRCodeWriter">
@@ -8933,6 +8238,11 @@
             For some products, the extension text
             </summary>
         </member>
+        <member name="F:ZXing.ResultMetadataType.QRCODE_DIMENSION">
+            <summary>
+            For QRCode, the dimension
+            </summary>
+        </member>
         <member name="T:ZXing.ResultPointCallback">
             <summary> Callback which is invoked when a possible result point (significant
             point in the barcode image such as a corner) is found.
@@ -9121,15 +8431,6 @@
             <param name="separator">The separator.</param>
             <param name="values">The values.</param>
             <returns></returns>
-        </member>
-        <member name="M:ZXing.SupportClass.Fill``1(``0[],``0)">
-            <summary>
-            Fills the specified array.
-            (can't use extension method because of .Net 2.0 support)
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="array">The array.</param>
-            <param name="value">The value.</param>
         </member>
         <member name="T:ZXing.WriterException">
             <summary>

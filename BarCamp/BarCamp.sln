@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Phone
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCamp", "BarCamp\BarCamp.csproj", "{4C03010E-3E3C-4840-B0CA-AF6BF1C46266}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.wp8.0", "..\..\_QRCode\qrcodescanner samples\WP8DemoPatch03 - 84319\trunk\Source\lib\zxing.wp8.0.csproj", "{B90C2C94-B895-4C7F-BD20-32135AE5D49B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,18 @@ Global
 		{4C03010E-3E3C-4840-B0CA-AF6BF1C46266}.Release|x86.ActiveCfg = Release|x86
 		{4C03010E-3E3C-4840-B0CA-AF6BF1C46266}.Release|x86.Build.0 = Release|x86
 		{4C03010E-3E3C-4840-B0CA-AF6BF1C46266}.Release|x86.Deploy.0 = Release|x86
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Debug|ARM.Build.0 = Debug|ARM
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Debug|x86.ActiveCfg = Debug|x86
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Debug|x86.Build.0 = Debug|x86
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Release|ARM.ActiveCfg = Release|ARM
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Release|ARM.Build.0 = Release|ARM
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Release|x86.ActiveCfg = Release|x86
+		{B90C2C94-B895-4C7F-BD20-32135AE5D49B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

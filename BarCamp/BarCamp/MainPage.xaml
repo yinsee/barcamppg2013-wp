@@ -8,7 +8,6 @@
     xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
     x:Class="BarCamp.MainPage"
     mc:Ignorable="d"
-    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -17,9 +16,9 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
-
+        <Image Source="/Images/AppBar/appbar_map_W.png" VerticalAlignment="Top" Margin="12,0,0,0" Height="30" HorizontalAlignment="Left" />
         <!--Pivot Control-->
-        <phone:Pivot x:Name="rootPivot" Title="MY APPLICATION">
+        <phone:Pivot x:Name="rootPivot" Title="">
             <!--Pivot item one-->
             <phone:PivotItem Header="Home">
                 <Grid>
@@ -29,7 +28,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0">
-                        <maps:Map x:Name="map_Home" >
+                        <maps:Map x:Name="map_Home">
                         </maps:Map>
                         <Rectangle x:Name="rect_Hour" Opacity="0.35" Fill="White" Margin="44,102,257,43" Width="155" Height="155"/>
                         <Rectangle x:Name="rect_Minute" Opacity="0.35" Fill="White" Margin="255,102,46,43" Width="155" Height="155"/>
@@ -56,34 +55,54 @@
                 </Grid>
             </phone:PivotItem>
 
-            <!--<phone:PivotItem Header="Profile" Visibility="Collapsed">
+            <phone:PivotItem Header="Profile" >
                 <Grid >
                     <Image x:Name="image_QRCode" HorizontalAlignment="Left" Height="376" Width="376" VerticalAlignment="Top" Margin="40,40,0,0" />
-                    <Button x:Name="btn_EditProfile" Content="Edit Profile" HorizontalAlignment="Left" Margin="138,421,0,0" VerticalAlignment="Top" Click="btn_EditProfile_Click"/>
+                    <Button x:Name="btn_EditProfile" Content="Add / Edit Profile" HorizontalAlignment="Left" Margin="120,421,0,0" VerticalAlignment="Top" Click="btn_EditProfile_Click"/>
                 </Grid>
             </phone:PivotItem>
-
-            <phone:PivotItem Header="Friends List" Visibility="Collapsed">
-                <phone:LongListSelector Margin="0,0,-12,0" ItemsSource="{Binding Items}">
-                    <phone:LongListSelector.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Margin="0,0,0,17">
-                                <TextBlock Text="{Binding LineOne}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
-                                <TextBlock Text="{Binding LineThree}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </phone:LongListSelector.ItemTemplate>
-                </phone:LongListSelector>
-            </phone:PivotItem>-->
+            
+            <phone:PivotItem Header="Friends List" >
+                <Grid Background="Transparent">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="550"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <phone:LongListSelector x:Name="lls_FriendList" ItemsSource="{Binding FriendListItems}" SelectionChanged="lls_FriendList_SelectionChanged" Margin="0,-10,0,10">
+                            <phone:LongListSelector.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="Transparent">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="120"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="120"/>
+                                        </Grid.RowDefinitions>
+                                        <Rectangle Grid.Column="0" Grid.Row="0" Width="100" Height="100" Margin="10" ></Rectangle>
+                                        <Image Source="/Images/default.png" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+                                        <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Margin="10,10,0,0"
+                                       Text="{Binding FriendName}" VerticalAlignment="Top"  FontSize="30" Width="340" Height="42"/>
+                                        <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Margin="10,57,0,0" TextWrapping="Wrap" 
+                                       Text="{Binding FriendPhone}" VerticalAlignment="Top" Width="340" Height="53"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </phone:LongListSelector.ItemTemplate>
+                        </phone:LongListSelector>
+                    </Grid>
+                    <Button x:Name="btn_Add" Content="Add" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="btn_Add_Click"/>
+                </Grid>
+            </phone:PivotItem>
 
             <phone:PivotItem Header="Agenda" x:Name="pivot_Agenda" >
                 <Grid>
                     <phone:WebBrowser x:Name="wb_Agenda" Height="603" Width="456"/>
-                    <TextBlock FontSize="40" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Connect to internet to view the agenda." VerticalAlignment="Top"/>
+                    <!--<TextBlock FontSize="40" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Connect to internet to view the agenda." VerticalAlignment="Top"/>-->
                 </Grid>
             </phone:PivotItem>
         </phone:Pivot>
-        
+
 
         <!--connect internet to view the agenda
         Uncomment to see an alignment grid to help ensure your controls are

@@ -8,29 +8,34 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using BarCamp.Resources;
 using BarCamp.ViewModels;
+using Microsoft.Phone.Net.NetworkInformation;
+using Facebook.Client;
 
 namespace BarCamp
 {
     public partial class App : Application
     {
-        private static MainViewModel viewModel = null;
+        #region facebook
+        /* following four variables to hold the 
+         * Facebook OAuth Access Token, 
+         * the User's ID once they have logged in into Facebook, 
+         * a flag to keep track that the user has already been authenticated 
+         * and the FacebookSessionClient class which wraps the Facebook OAuth login in a convenient fashion
+         */
+        internal static string AccessToken = String.Empty;
+        internal static string FacebookId = String.Empty;
+        public static bool isAuthenticated = false;
+        public static FacebookSessionClient FacebookSessionClient = new FacebookSessionClient(Constants.FacebookAppId);
+        #endregion
+        public static string ForQRCodeString = "";
+        public static string StringGetFromScanner = "";
+
+        public FriendListItem app_friendListItem;
 
         /// <summary>
         /// A static ViewModel used by the views to bind against.
         /// </summary>
         /// <returns>The MainViewModel object.</returns>
-        public static MainViewModel ViewModel
-        {
-            get
-            {
-                // Delay creation of the view model until necessary
-                if (viewModel == null)
-                    viewModel = new MainViewModel();
-
-                return viewModel;
-            }
-        }
-
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -54,11 +59,13 @@ namespace BarCamp
             // Language display initialization
             InitializeLanguage();
 
+            //ThemeManager.ToLightTheme();
+
             // Show graphics profiling information while debugging.
             if (Debugger.IsAttached)
             {
                 // Display the current frame rate counters
-                Application.Current.Host.Settings.EnableFrameRateCounter = true;
+                // Application.Current.Host.Settings.EnableFrameRateCounter = true;
 
                 // Show the areas of the app that are being redrawn in each frame.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
@@ -71,7 +78,15 @@ namespace BarCamp
                 // the application's idle detection.
                 // Caution:- Use this under debug mode only. Application that disables user idle detection will continue to run
                 // and consume battery power when the user is not using the phone.
-                PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+                // PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+            }
+
+            using (FriendListDataContext db = new FriendListDataContext(FriendListDataContext.DBConnectionString))
+            {
+                if (db.DatabaseExists() == false)
+                {
+                    db.CreateDatabase();
+                }
             }
         }
 
@@ -85,11 +100,7 @@ namespace BarCamp
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
-            // Ensure that application state is restored appropriately
-            if (!App.ViewModel.IsDataLoaded)
-            {
-                App.ViewModel.LoadData();
-            }
+
         }
 
         // Code to execute when the application is deactivated (sent to background)
@@ -121,7 +132,7 @@ namespace BarCamp
             if (Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger
-                
+
                 MessageBox.Show(e.ExceptionObject.ToString());
                 Debugger.Break();
             }
@@ -160,6 +171,10 @@ namespace BarCamp
             if (RootVisual != RootFrame)
                 RootVisual = RootFrame;
 
+            if (NetworkInterface.GetIsNetworkAvailable())
+            {
+                //MessageBox.Show("Connect to internet to see full content.");
+            }
             // Remove this handler since it is no longer needed
             RootFrame.Navigated -= CompleteInitializePhoneApplication;
         }

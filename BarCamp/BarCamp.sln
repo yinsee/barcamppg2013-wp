@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Phone
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCamp", "BarCamp\BarCamp.csproj", "{4C03010E-3E3C-4840-B0CA-AF6BF1C46266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.wp8.0", "..\..\_QRCode\qrcodescanner samples\WP8DemoPatch03 - 84319\trunk\Source\lib\zxing.wp8.0.csproj", "{B90C2C94-B895-4C7F-BD20-32135AE5D49B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zxing.wp8.0", "scanner lib\zxing.wp8.0.csproj", "{B90C2C94-B895-4C7F-BD20-32135AE5D49B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

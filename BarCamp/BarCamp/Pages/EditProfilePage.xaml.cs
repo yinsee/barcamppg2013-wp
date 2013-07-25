@@ -44,18 +44,26 @@ namespace BarCamp
                 fbInvoke();
             }
         }
-        private void btn_Submit_Click(object sender, RoutedEventArgs e)
+        //private void btn_Submit_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (isEmpty())
+        //    {
+        //        return;
+        //    }
+        //    NavigationService.Navigate(new Uri("/MainPage.xaml?goto=1&msg=" + getInfo(), UriKind.Relative));
+        //}
+        private void img_fbConnectBtn_Tap(object sender, RoutedEventArgs e)
+        {
+            App.ForQRCodeString = getInfo();
+            NavigationService.Navigate(new Uri("/Pages/FacebookLoginPage.xaml", UriKind.Relative));
+        }
+        private void img_saveUpateBtn_Tap(object sender, RoutedEventArgs e)
         {
             if (isEmpty())
             {
                 return;
             }
             NavigationService.Navigate(new Uri("/MainPage.xaml?goto=1&msg=" + getInfo(), UriKind.Relative));
-        }
-        private void img_fbConnectBtn_Tap(object sender, RoutedEventArgs e)
-        {
-            App.ForQRCodeString = getInfo();
-            NavigationService.Navigate(new Uri("/Pages/FacebookLoginPage.xaml", UriKind.Relative));
         }
         private void shreadAndSet(string msg)
         {

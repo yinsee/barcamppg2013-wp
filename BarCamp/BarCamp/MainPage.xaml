@@ -12,13 +12,100 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
+    <phone:PhoneApplicationPage.Resources>
+        <Style x:Key="TextBoxTitleStyle" TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Background" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="SelectionBackground" Value="{StaticResource PhoneAccentBrush}"/>
+            <Setter Property="SelectionForeground" Value="{StaticResource PhoneTextBoxSelectionForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ReadOnly">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Collapsed</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxReadOnlyBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBackgroundBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBorderBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="MainBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="{StaticResource PhoneTouchTargetOverhang}"/>
+                            <Border x:Name="ReadonlyBorder" BorderBrush="{StaticResource PhoneDisabledBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}" Visibility="Collapsed"/>
+                            <Border BorderBrush="Transparent" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentElement" BorderThickness="0" HorizontalContentAlignment="Stretch" Margin="{StaticResource PhoneTextBoxInnerMargin}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="Stretch"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Image Source="/Images/AppBar/appbar_map_W.png" VerticalAlignment="Top" Margin="12,0,0,0" Height="30" HorizontalAlignment="Left" />
+        <Image Source="/Images/AppBar/top.png" Opacity="0.5" VerticalAlignment="Top" Height="171" HorizontalAlignment="Left" Width="495" Margin="0,0,-15,0" />
+        <Rectangle Opacity="0.1" Margin="0,0,0,736" Fill="Black"/>
+        <Image Source="/Images/AppBar/icon_57.jpg" VerticalAlignment="Top" Margin="12,10,0,0" Height="39" HorizontalAlignment="Left" Width="468" />
         <!--Pivot Control-->
-        <phone:Pivot x:Name="rootPivot" Title="">
+        <phone:Pivot x:Name="rootPivot" Title="" Margin="0,49,0,0">
             <!--Pivot item one-->
             <phone:PivotItem Header="Home">
                 <Grid>
@@ -58,18 +145,19 @@
             <phone:PivotItem Header="Profile" >
                 <Grid >
                     <Image x:Name="image_QRCode" HorizontalAlignment="Left" Height="376" Width="376" VerticalAlignment="Top" Margin="40,40,0,0" />
-                    <Button x:Name="btn_EditProfile" Content="Add / Edit Profile" HorizontalAlignment="Left" Margin="120,421,0,0" VerticalAlignment="Top" Click="btn_EditProfile_Click"/>
+                    <Image x:Name="img_addImg" Source="/Images/Button/btn_add_edit_profile_add.png" HorizontalAlignment="Left" VerticalAlignment="Top" Height="54" Margin="145,421,0,0" Width="164" Tap="img_addEditBtn_Tap"/>
+                    <!--<Button x:Name="btn_EditProfile" Content="Add / Edit Profile" HorizontalAlignment="Left" Margin="120,421,0,0" VerticalAlignment="Top" Click="btn_EditProfile_Click"/>-->
                 </Grid>
             </phone:PivotItem>
-            
+
             <phone:PivotItem Header="Friends List" >
                 <Grid Background="Transparent">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="550"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Grid Grid.Row="0">
-                        <phone:LongListSelector x:Name="lls_FriendList" ItemsSource="{Binding FriendListItems}" SelectionChanged="lls_FriendList_SelectionChanged" Margin="0,-10,0,10">
+                    <Grid Grid.Row="0" Margin="0,12,0,25">
+                        <phone:LongListSelector x:Name="lls_FriendList" ItemsSource="{Binding FriendListItems}" SelectionChanged="lls_FriendList_SelectionChanged" Margin="0,-10,10,0">
                             <phone:LongListSelector.ItemTemplate>
                                 <DataTemplate>
                                     <Grid Background="Transparent">
@@ -91,7 +179,8 @@
                             </phone:LongListSelector.ItemTemplate>
                         </phone:LongListSelector>
                     </Grid>
-                    <Button x:Name="btn_Add" Content="Add" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Click="btn_Add_Click"/>
+                    <Image x:Name="img_scanImg" Source="/Images/Button/btn_scan.png" HorizontalAlignment="Left" VerticalAlignment="Top" Height="88" Margin="158,530,0,-1" Width="109" Tap="img_scanBtn_Tap" Grid.RowSpan="2"/>
+                    <!--<Button x:Name="btn_Add" Content="Add" HorizontalAlignment="Left" Margin="10,548,0,-1" VerticalAlignment="Top" Click="btn_Add_Click" Grid.RowSpan="2"/>-->
                 </Grid>
             </phone:PivotItem>
 
@@ -102,6 +191,7 @@
                 </Grid>
             </phone:PivotItem>
         </phone:Pivot>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Height="48" Margin="58,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" LineHeight="24" FontSize="18.667" FontFamily="Segoe WP Semibold" Text="Bar Camp Penang 2013" />
 
 
         <!--connect internet to view the agenda

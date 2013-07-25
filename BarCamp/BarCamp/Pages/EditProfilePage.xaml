@@ -12,15 +12,16 @@
     
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+        <Image Source="/Images/AppBar/top.png" Opacity="0.5" VerticalAlignment="Top" Height="171" HorizontalAlignment="Left" Width="495" Margin="0,0,-15,0" />
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="Profile" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
@@ -41,11 +42,12 @@
                     <TextBlock x:Name="txtBlk_FbIdLabel" HorizontalAlignment="Left" Margin="10,441,0,0" TextWrapping="Wrap" Text="Facebook" VerticalAlignment="Top"/>
                     <!--<TextBox x:Name="txtBox_Facebook" HorizontalAlignment="Left" Height="72" Margin="10,468,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" IsReadOnly="True" />-->
 
-                    <TextBlock x:Name="txtBlk_FbId" 
-                               Text="" HorizontalAlignment="Left" Margin="130,532,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="31"/>
-                    <Image x:Name="img_fbConnectBtn"  HorizontalAlignment="Left" Height="54" Margin="128,473,0,0" VerticalAlignment="Top" Width="164" Source="/Images/fbIcon.png" Tap="img_fbConnectBtn_Tap"/>
-                    <Image  x:Name="img_fbImg" Source="/Images/default.png"  HorizontalAlignment="Left" Height="100" Margin="10,473,0,0" VerticalAlignment="Top" Width="100"/>
-                    <Button x:Name="btn_Submit" Content="Save / Update" HorizontalAlignment="Left" Margin="138,573,0,0" VerticalAlignment="Top" Click="btn_Submit_Click"/>
+                    <TextBlock x:Name="txtBlk_FbId" Text="" HorizontalAlignment="Left" Margin="115,527,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="31"/>
+                    <Image x:Name="img_fbConnectBtn" Source="/Images/Button/btn_facebookconnect.png" HorizontalAlignment="Left" Height="54" Margin="145,473,0,0" VerticalAlignment="Top" Width="164" Tap="img_fbConnectBtn_Tap"/>
+                    <Image x:Name="img_fbImg" Source="/Images/default.png"  HorizontalAlignment="Left" Height="100" Margin="10,473,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Image x:Name="img_saveImg" Source="/Images/Button/btn_add_edit_profile_save.png" HorizontalAlignment="Left" VerticalAlignment="Top" Height="54" Margin="145,586,0,0" Width="164" Tap="img_saveUpateBtn_Tap"/>
+                    
+                    <!--<Button x:Name="btn_Submit" Content="Save / Update" HorizontalAlignment="Left" Margin="130,563,0,0" VerticalAlignment="Top" Click="btn_Submit_Click"/> -->
                     <!--Margin="138,573,0,0"-->
                 </Grid>
             </ScrollViewer>

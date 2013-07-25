@@ -11,7 +11,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -19,6 +19,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Image Source="/Images/AppBar/top.png" Opacity="0.5" VerticalAlignment="Top" Height="171" HorizontalAlignment="Left" Width="495" Margin="0,0,-15,0" />
         <TextBlock Grid.Row="0" Text="Indoor Map" Margin="10,10,10,662" Style="{StaticResource PhoneTextTitle1Style}" Grid.RowSpan="2"/>
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="10,111,10,10">
             <!--<ScrollViewer >-->

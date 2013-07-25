@@ -37,6 +37,11 @@ namespace BarCamp
             loadWebsite();
 
         }
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            Application.Current.Terminate();
+        }
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             // database Query
@@ -65,11 +70,14 @@ namespace BarCamp
             friendListDB.SubmitChanges();
         }
 
-        private void btn_EditProfile_Click(object sender, RoutedEventArgs e)
+        //private void btn_EditProfile_Click(object sender, RoutedEventArgs e)
+        //{
+        //    NavigationService.Navigate(new Uri("/Pages/EditProfilePage.xaml?decode=" + decodeCode(), UriKind.Relative));
+        //}
+        private void img_addEditBtn_Tap(Object sender, RoutedEventArgs e) 
         {
             NavigationService.Navigate(new Uri("/Pages/EditProfilePage.xaml?decode=" + decodeCode(), UriKind.Relative));
         }
-
         private void rect_MapHome_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
             NavigationService.Navigate(new Uri("/Pages/FullScreenMap.xaml", UriKind.RelativeOrAbsolute));
@@ -386,10 +394,16 @@ namespace BarCamp
                 listBox.SelectedItem = null;
             }
         }
-        private void btn_Add_Click(object sender, RoutedEventArgs e)
+        //private void btn_Add_Click(object sender, RoutedEventArgs e)
+        //{
+        //    //processAndAdd("||||||||");
+        //    NavigationService.Navigate(new Uri("/Pages/ScanQRPage.xaml",UriKind.Relative));
+        //    processAndAdd(App.StringGetFromScanner);
+        //}
+        private void img_scanBtn_Tap(object sender, RoutedEventArgs e)
         {
             //processAndAdd("||||||||");
-            NavigationService.Navigate(new Uri("/Pages/ScanQRPage.xaml",UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Pages/ScanQRPage.xaml", UriKind.Relative));
             processAndAdd(App.StringGetFromScanner);
         }
         #endregion

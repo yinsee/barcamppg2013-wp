@@ -59,7 +59,7 @@ namespace BarCamp
             // Language display initialization
             InitializeLanguage();
 
-            //ThemeManager.ToLightTheme();
+            ThemeManager.ToLightTheme();
 
             // Show graphics profiling information while debugging.
             if (Debugger.IsAttached)
@@ -133,7 +133,7 @@ namespace BarCamp
             {
                 // An unhandled exception has occurred; break into the debugger
 
-                MessageBox.Show(e.ExceptionObject.ToString());
+                //MessageBox.Show(e.ExceptionObject.ToString());
                 Debugger.Break();
             }
         }

@@ -2,7 +2,7 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{4c03010e-3e3c-4840-b0ca-af6bf1c46266}" Title="BarCamp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BarCamp author" Description="Sample description" Publisher="BarCamp" PublisherID="{26b1a2e6-2c7c-4533-af90-af0a6c7ab3f3}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">app_icon_99.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -13,15 +13,16 @@
       <Capability Name="ID_CAP_LOCATION" />
     </Capabilities>
     <Tasks>
-      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+      <DefaultTask Name="_default" NavigationPage="ExtendedSplashScreen.xaml" />
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="BarCampToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">s_icon_159.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>BarCamp</Title>
+          <BackgroundImageURI IsRelative="true" IsResource="false">m_icon_336.png</BackgroundImageURI>
+          <Title>
+          </Title>
           <BackContent>
           </BackContent>
           <BackBackgroundImageURI>
@@ -30,8 +31,7 @@
           </BackTitle>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <HasLarge>False</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

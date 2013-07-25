@@ -98,6 +98,9 @@
     <Compile Include="BarcodeDetectedEventArgs.cs" />
     <Compile Include="BarcodePosition.cs" />
     <Compile Include="CoordinateConverter.cs" />
+    <Compile Include="ExtendedSplashScreen.xaml.cs">
+      <DependentUpon>ExtendedSplashScreen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FriendListDataContext.cs" />
     <Compile Include="FriendListItem.cs" />
     <Compile Include="Pages\DetailPage.xaml.cs">
@@ -135,6 +138,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="ExtendedSplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\DetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -172,6 +179,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app_icon_99.png" />
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -193,10 +201,18 @@
     </Content>
     <Content Include="Images\AppBar\appbar_map_B.png" />
     <Content Include="Images\AppBar\appbar_map_W.png" />
+    <Content Include="Images\AppBar\ExtendedSplashScreen_768.jpg" />
+    <Content Include="Images\AppBar\icon_57.jpg" />
+    <Content Include="Images\AppBar\top.png" />
+    <Content Include="Images\Button\btn_add_edit_profile_add.png" />
+    <Content Include="Images\Button\btn_add_edit_profile_save.png" />
+    <Content Include="Images\Button\btn_facebookconnect.png" />
+    <Content Include="Images\Button\btn_scan.png" />
     <Content Include="Images\default.png" />
-    <Content Include="Images\fbIcon.png" />
     <Content Include="Images\SouthZoneMap.png" />
+    <Content Include="m_icon_336.png" />
     <Content Include="README_FIRST.txt" />
+    <Content Include="s_icon_159.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
@@ -232,7 +248,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\_QRCode\qrcodescanner samples\WP8DemoPatch03 - 84319\trunk\Source\lib\zxing.wp8.0.csproj">
+    <ProjectReference Include="..\scanner lib\zxing.wp8.0.csproj">
       <Project>{B90C2C94-B895-4C7F-BD20-32135AE5D49B}</Project>
       <Name>zxing.wp8.0</Name>
     </ProjectReference>

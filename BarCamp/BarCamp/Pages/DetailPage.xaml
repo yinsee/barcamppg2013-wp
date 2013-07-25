@@ -11,25 +11,22 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
 
     <ScrollViewer>
         <Grid x:Name="LayoutRoot" Background="Transparent">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
 
-            <TextBlock x:Name="tb_Name" Text="Binding FriendName}" FontSize="35" Margin="30,40,0,0"  HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Height="95" />
-            <TextBlock Text="Phone" FontSize="35" Margin="30,135,0,0"  HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" />
-            <TextBlock Text="Email" FontSize="35"  Margin="30,250,0,0" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <TextBlock Text="Professional" FontSize="35"  Margin="30,365,0,0" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <TextBlock Text="Facebook" FontSize="35"  Margin="30,480,0,0" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <TextBlock x:Name="tb_Phone" Text="Binding FriendPhone}" Margin="35,187,0,0" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
-            <TextBlock x:Name="tb_Email" Text="Binding FriendEmail}" Margin="35,302,0,0" HorizontalAlignment="Left"  Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
-            <TextBlock x:Name="tb_Pro" Text="Binding FriendPro}" Margin="35,417,0,0" HorizontalAlignment="Left"  Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
-            <TextBlock x:Name="tb_Fb" Text="Binding FriendFbId}" Margin="35,527,0,0" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
-            
+            <Image Source="/Images/AppBar/top.png" Opacity="0.5" VerticalAlignment="Top" Height="171" HorizontalAlignment="Left" Width="495" Margin="0,0,-15,0" />
+            <TextBlock x:Name="tb_Name" Text="Binding FriendName}" FontSize="35" Margin="30,171,0,0"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Height="95" />
+            <TextBlock Text="Phone" FontSize="35" Margin="30,266,0,0"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" />
+            <TextBlock Text="Email" FontSize="35"  Margin="30,381,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBlock Text="Professional" FontSize="35"  Margin="30,496,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBlock Text="Facebook" FontSize="35"  Margin="30,611,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tb_Phone" Text="Binding FriendPhone}" Margin="35,318,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
+            <TextBlock x:Name="tb_Email" Text="Binding FriendEmail}" Margin="35,433,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
+            <TextBlock x:Name="tb_Pro" Text="Binding FriendPro}" Margin="35,548,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
+            <TextBlock x:Name="tb_Fb" Text="Binding FriendFbId}" Margin="35,663,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" Height="58" Width="416"/>
+           
         </Grid>
     </ScrollViewer>
 

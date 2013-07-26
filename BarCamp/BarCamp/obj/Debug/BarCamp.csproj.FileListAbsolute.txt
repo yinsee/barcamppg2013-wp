@@ -1,17 +1,538 @@
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\ApplicationIcon.png
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Background.png
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\BarCamp.xap
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.dll
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.xml
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\App.g.cs
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.dll
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
-C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp\BarCamp\obj\Debug\EditProfilePage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\EditProfilePage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs4_Add in QR\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\EditProfilePage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs5_Added coundown code\BarCamp\BarCamp\obj\Debug\FullScreenMap.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\EditProfilePage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\FullScreenMap.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs6_Add home map code\BarCamp\BarCamp\obj\Debug\IndoorMap.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\EditProfilePage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\FullScreenMap.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\IndoorMap.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\LowJiaYou\Documents\Visual Studio 2012\Projects\BarCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\EditProfilePage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\FullScreenMap.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\IndoorMap.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\BarCamp_vs7_Add gpsmap indoormap\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\App.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\Pages\DetailPage.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\Pages\EditProfilePage.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\Pages\FacebookLoginPage.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\Pages\FullScreenMap.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\Pages\IndoorMap.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\Pages\ScanQRPage.g.cs
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Facebook.Client.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Facebook.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Facebook.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Facebook.Client.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+E:\Temporary storage for 8\Project Code\BarCamp\BarCamp_vs8_ fix web\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\BarCamp.csprojResolveAssemblyReference.cache
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\App.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\Pages\DetailPage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\Pages\EditProfilePage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\Pages\FacebookLoginPage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\Pages\FullScreenMap.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\Pages\IndoorMap.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\MainPage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\Pages\ScanQRPage.g.cs
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\BarCamp.g.resources
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\BarCamp.Resources.AppResources.resources
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\BarCamp.csproj.GenerateResource.Cache
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\BarCamp.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\BarCamp.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\BarCamp.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\BarCamp.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\AppManifest.xaml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\BarCamp_Debug_AnyCPU.xap
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Facebook.Client.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Facebook.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\zxing.wp8.0.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Facebook.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Facebook.Client.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\XapCacheFile.xml
+C:\Users\yinwai92\Desktop\BaRCamp\barcamppg2013-wp-master\BarCamp\BarCamp\obj\Debug\ExtendedSplashScreen.g.cs

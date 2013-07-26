@@ -1,148 +1,207 @@
 ﻿<phone:PhoneApplicationPage
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
-	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
-	xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"	
-	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	xmlns:Maps="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps"
-	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800" 
-	x:Class="BarCamp.MainPage"
-	d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
-	FontFamily="{StaticResource PhoneFontFamilyNormal}"
-	FontSize="{StaticResource PhoneFontSizeNormal}"
-	Foreground="{StaticResource PhoneForegroundBrush}"
-	SupportedOrientations="Portrait" Orientation="Portrait"
-	shell:SystemTray.IsVisible="False">
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    x:Class="BarCamp.MainPage"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+    <phone:PhoneApplicationPage.Resources>
+        <Style x:Key="TextBoxTitleStyle" TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Background" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="SelectionBackground" Value="{StaticResource PhoneAccentBrush}"/>
+            <Setter Property="SelectionForeground" Value="{StaticResource PhoneTextBoxSelectionForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ReadOnly">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Collapsed</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxReadOnlyBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBackgroundBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBorderBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="MainBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="{StaticResource PhoneTouchTargetOverhang}"/>
+                            <Border x:Name="ReadonlyBorder" BorderBrush="{StaticResource PhoneDisabledBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}" Visibility="Collapsed"/>
+                            <Border BorderBrush="Transparent" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentElement" BorderThickness="0" HorizontalContentAlignment="Stretch" Margin="{StaticResource PhoneTextBoxInnerMargin}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="Stretch"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-	<Grid x:Name="LayoutRoot" Background="Transparent">
-		<!--Panorama control-->
-		<controls:Panorama Title="BarCamp Penang">
-			<controls:Panorama.Background>
-				<ImageBrush ImageSource="PanoramaBackground.png"/>
-			</controls:Panorama.Background>
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Image Source="/Images/AppBar/top.png" Opacity="0.5" VerticalAlignment="Top" Height="171" HorizontalAlignment="Left" Width="495" Margin="0,0,-15,0" />
+        <Rectangle Opacity="0.1" Margin="0,0,0,736" Fill="Black"/>
+        <Image Source="/Images/AppBar/icon_57.jpg" VerticalAlignment="Top" Margin="12,10,0,0" Height="39" HorizontalAlignment="Left" Width="468" />
+        <!--Pivot Control-->
+        <phone:Pivot x:Name="rootPivot" Title="" Margin="0,49,0,0">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="Home">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <maps:Map x:Name="map_Home">
+                        </maps:Map>
+                        <Rectangle x:Name="rect_Hour" Opacity="0.35" Fill="White" Margin="44,102,257,43" Width="155" Height="155"/>
+                        <Rectangle x:Name="rect_Minute" Opacity="0.35" Fill="White" Margin="255,102,46,43" Width="155" Height="155"/>
+                        <TextBlock x:Name="txtblk_Hour" Foreground="Black" FontSize="80" HorizontalAlignment="Left" Margin="64,102,0,0" TextWrapping="Wrap" Text="300" VerticalAlignment="Top" Height="111" Width="135"/>
+                        <TextBlock x:Name="txtblk_Minute" Foreground="Black"  FontSize="80" HorizontalAlignment="Left" Margin="275,102,0,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Height="111" Width="135"/>
+                        <TextBlock x:Name="txtblk_HourLabel" Foreground="Black"  HorizontalAlignment="Left" Margin="64,222,0,0"  Text="Days" VerticalAlignment="Top" Height="35" Width="135"/>
+                        <TextBlock x:Name="txtblk_MinuteLabel" Foreground="Black"  HorizontalAlignment="Left" Margin="275,222,0,0" Text="Hours" VerticalAlignment="Top" Height="35" Width="135"/>
+                        <Rectangle x:Name="rect_MapHome" Fill="White" Opacity="0.1" Tap="rect_MapHome_Tap" />
+                    </Grid>
 
-			<!--Panorama item Time and Venue-->
-			<controls:PanoramaItem Header="Time&amp;Venue">
-				<Grid>
-					<Grid.RowDefinitions>
-						<RowDefinition Height="auto"/>
-						<RowDefinition Height="*"/>
-					</Grid.RowDefinitions>
-					<TextBlock Grid.Row="0" Text="Time countdown here" Margin="25,0,0,0"/>
-					<Maps:Map Grid.Row="1" Margin="25,12,0,18" />
-				</Grid>	
-			</controls:PanoramaItem>
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <ScrollViewer Grid.Row="1">
+                            <Grid>
+                                <Image x:Name="img_Sponsor"/>
+                                <phone:WebBrowser x:Name="wb_Home_Sponsor" Height="300"/>
+                                <!--<Rectangle Fill="Plum" Height="250"/>-->
+                            </Grid>
+                        </ScrollViewer>
+                    </Grid>
+                </Grid>
+            </phone:PivotItem>
 
-			<!--Panorama item Friends-->
-			<controls:PanoramaItem Header="Friends">
-				<!--Double line list with image placeholder and text wrapping-->
-				<ListBox ItemsSource="{Binding Items}" Margin="0,0,-12,0">
-					<ListBox.ItemTemplate>
-						<DataTemplate>
-							<StackPanel Orientation="Horizontal" Margin="0,0,0,17" Height="105" Width="432">
-								<!--Replace rectangle with image-->
-								<Rectangle Height="100" Width="100" Fill="#FFE5001b" Margin="12,0,9,0"/>
-								<StackPanel Width="311">
-									<TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" />
-									<TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap" Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}" />
-								</StackPanel>
-							</StackPanel>
-						</DataTemplate>
-					</ListBox.ItemTemplate>
-				</ListBox>
-			</controls:PanoramaItem>
+            <phone:PivotItem Header="Profile" >
+                <Grid >
+                    <Image x:Name="image_QRCode" HorizontalAlignment="Left" Height="376" Width="376" VerticalAlignment="Top" Margin="40,40,0,0" />
+                    <Image x:Name="img_addImg" Source="/Images/Button/btn_add_edit_profile_add.png" HorizontalAlignment="Left" VerticalAlignment="Top" Height="54" Margin="145,421,0,0" Width="164" Tap="img_addEditBtn_Tap"/>
+                    <!--<Button x:Name="btn_EditProfile" Content="Add / Edit Profile" HorizontalAlignment="Left" Margin="120,421,0,0" VerticalAlignment="Top" Click="btn_EditProfile_Click"/>-->
+                </Grid>
+            </phone:PivotItem>
 
-			<!--Panorama item Profiles-->
-			<controls:PanoramaItem Header="Profiles">
-				<!-- Main Grid-->
-				<Grid Margin="25,0,0,0">
-					<Grid.RowDefinitions>
-						<!-- Name|Email|Phone|QR|Sponsors-->
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="Auto"/>
-						<RowDefinition Height="*"/>
-					</Grid.RowDefinitions>
-					<!-- Name Grid-->
-					<Grid Grid.Row="0">
-						<Grid.RowDefinitions>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="*"/>
-						</Grid.RowDefinitions>
-						<TextBlock Grid.Row="0" Text="Name"/>
-						<TextBlock Grid.Row="1" Text="Your Actual Name"/>
-					</Grid>
-					<!-- Email Grid-->
-					<Grid Grid.Row="1" Margin="0,12,0,0">
-						<Grid.RowDefinitions>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="*"/>
-						</Grid.RowDefinitions>
-						<TextBlock Grid.Row="0" Text="Email"/>
-						<TextBlock Grid.Row="1" Text="mailme@email.com"/>
-					</Grid>
-					<!-- Phone Grid-->
-					<Grid Grid.Row="2" Margin="0,12,0,0">
-						<Grid.RowDefinitions>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="*"/>
-						</Grid.RowDefinitions>
-						<TextBlock Grid.Row="0" Text="Phone"/>
-						<TextBlock Grid.Row="1" Text="+6 XXX - XXX - XXX"/>
-					</Grid>
-					<!-- QR Grid-->
-					<Grid Grid.Row="3" Height="177" Margin="0,12,0,0">
-						<Grid.RowDefinitions>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="*"/>
-						</Grid.RowDefinitions>
-						<TextBlock Text="QR code here can you see me ? "/>
-						<Image Grid.Row="0" Height="162" Margin="0" Source="/Images/WP8.png" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Left"/>
-					</Grid>
-					<!-- Sponsor Grid-->
-					<Grid Grid.Row="4">
-						<Grid.RowDefinitions>
-							<RowDefinition Height="Auto"/>
-							<RowDefinition Height="*"/>
-						</Grid.RowDefinitions>
-						<TextBlock Text="Sponsors"/>
-						<ScrollViewer/>
-					</Grid>
-				</Grid>
-			</controls:PanoramaItem>
-        </controls:Panorama>
-        <!--Uncomment to see an alignment grid to help ensure your controls are
+            <phone:PivotItem Header="Friends List" >
+                <Grid Background="Transparent">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="550"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="0,12,0,25">
+                        <phone:LongListSelector x:Name="lls_FriendList" ItemsSource="{Binding FriendListItems}" SelectionChanged="lls_FriendList_SelectionChanged" Margin="0,-10,10,0">
+                            <phone:LongListSelector.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Background="Transparent">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="120"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="120"/>
+                                        </Grid.RowDefinitions>
+                                        <Rectangle Grid.Column="0" Grid.Row="0" Width="100" Height="100" Margin="10" ></Rectangle>
+                                        <Image Source="/Images/default.png" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+                                        <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Margin="10,10,0,0"
+                                       Text="{Binding FriendName}" VerticalAlignment="Top"  FontSize="30" Width="340" Height="42"/>
+                                        <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Margin="10,57,0,0" TextWrapping="Wrap" 
+                                       Text="{Binding FriendPhone}" VerticalAlignment="Top" Width="340" Height="53"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </phone:LongListSelector.ItemTemplate>
+                        </phone:LongListSelector>
+                    </Grid>
+                    <Image x:Name="img_scanImg" Source="/Images/Button/btn_scan.png" HorizontalAlignment="Left" VerticalAlignment="Top" Height="88" Margin="158,530,0,-1" Width="109" Tap="img_scanBtn_Tap" Grid.RowSpan="2"/>
+                    <!--<Button x:Name="btn_Add" Content="Add" HorizontalAlignment="Left" Margin="10,548,0,-1" VerticalAlignment="Top" Click="btn_Add_Click" Grid.RowSpan="2"/>-->
+                </Grid>
+            </phone:PivotItem>
+
+            <phone:PivotItem Header="Agenda" x:Name="pivot_Agenda" >
+                <Grid>
+                    <phone:WebBrowser x:Name="wb_Agenda" Height="603" Width="456"/>
+                    <!--<TextBlock FontSize="40" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Connect to internet to view the agenda." VerticalAlignment="Top"/>-->
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Height="48" Margin="58,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" LineHeight="24" FontSize="18.667" FontFamily="Segoe WP Semibold" Text="Bar Camp Penang 2013" />
+
+
+        <!--connect internet to view the agenda
+        Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
             account for the System Tray. Set this to 0 (or remove the margin altogether)
             if the System Tray is hidden.
 
             Before shipping remove this XAML and the image itself.-->
-		<Image Source="/Images/AlignmentGrid.png" VerticalAlignment="Top"  Margin="0,-32,0,0" Grid.Row="0" IsHitTestVisible="False" d:IsHidden="True" d:IsLocked="True" />
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" IsHitTestVisible="False" />-->
     </Grid>
 
-	<!--App Bar-->
-    <!--Panorama-based applications should not show an ApplicationBar-->
-    <phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized" Opacity="1.0" >
-
-            <!--Visible only when it is map Screen-->
-            <shell:ApplicationBarIconButton IconUri="/Images/save.png" Text="Navigate" Click="AppBarBtn_Navigate_Click" />
-            <!-- delete.png | help.png | settings.png-->
-
-            <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="Add Friend via QR Code" Click="AppBarMenu_AddViaQR_Click" />
-                <shell:ApplicationBarMenuItem Text="Add Friend via NFC" Click="AppBarMenu_AddViaNFC_Click" />
-                <shell:ApplicationBarMenuItem Text="Edit Personal Info" Click="AppBarMenu_EditInfo_Click" />
-            </shell:ApplicationBar.MenuItems>
-
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
 </phone:PhoneApplicationPage>
